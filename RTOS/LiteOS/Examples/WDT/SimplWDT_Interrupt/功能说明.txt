@@ -1,0 +1,1 @@
+功能说明：WDT中断函数中反转连接在PA5引脚上的LED并串口打印“WDT Handler”
