@@ -3,7 +3,7 @@ Pinecone Pi ONE|松果派ONE开启你的极客之心：搭载华芯微特SWM320�
 
 ###  **目录结构** 
 
-1. Chipbook:Nano使用说明书 And 相关芯片手册 And 驱动程序 And 核心头文件 （建议Clone)
+1. Chipbook:芯片手册
 2. ISP_Download:ISP下载软件
 3. JLINK_Software:JLINK相关软件
 4. Keil Pack:Keil器件包
