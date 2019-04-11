@@ -1,0 +1,15 @@
+.\out\queue.o: APP\FreeRTOS\queue.c
+.\out\queue.o: E:\MDK5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\out\queue.o: E:\MDK5\ARM\ARMCC\Bin\..\include\string.h
+.\out\queue.o: APP\FreeRTOS\FreeRTOS.h
+.\out\queue.o: E:\MDK5\ARM\ARMCC\Bin\..\include\stddef.h
+.\out\queue.o: E:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\out\queue.o: APP\FreeRTOS\FreeRTOSConfig.h
+.\out\queue.o: APP\FreeRTOS\projdefs.h
+.\out\queue.o: APP\FreeRTOS\portable.h
+.\out\queue.o: APP\FreeRTOS\deprecated_definitions.h
+.\out\queue.o: .\APP\FreeRTOS\port\portmacro.h
+.\out\queue.o: APP\FreeRTOS\mpu_wrappers.h
+.\out\queue.o: APP\FreeRTOS\task.h
+.\out\queue.o: APP\FreeRTOS\list.h
+.\out\queue.o: APP\FreeRTOS\queue.h

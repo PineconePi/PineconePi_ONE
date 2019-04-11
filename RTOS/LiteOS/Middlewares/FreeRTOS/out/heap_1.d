@@ -1,0 +1,13 @@
+.\out\heap_1.o: APP\FreeRTOS\heap\heap_1.c
+.\out\heap_1.o: E:\MDK5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\out\heap_1.o: .\APP\FreeRTOS\FreeRTOS.h
+.\out\heap_1.o: E:\MDK5\ARM\ARMCC\Bin\..\include\stddef.h
+.\out\heap_1.o: E:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\out\heap_1.o: .\APP\FreeRTOS\FreeRTOSConfig.h
+.\out\heap_1.o: .\APP\FreeRTOS\projdefs.h
+.\out\heap_1.o: .\APP\FreeRTOS\portable.h
+.\out\heap_1.o: .\APP\FreeRTOS\deprecated_definitions.h
+.\out\heap_1.o: .\APP\FreeRTOS\port\portmacro.h
+.\out\heap_1.o: .\APP\FreeRTOS\mpu_wrappers.h
+.\out\heap_1.o: .\APP\FreeRTOS\task.h
+.\out\heap_1.o: .\APP\FreeRTOS\list.h

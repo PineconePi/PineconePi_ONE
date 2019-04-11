@@ -1,0 +1,12 @@
+.\out\list.o: APP\FreeRTOS\list.c
+.\out\list.o: E:\MDK5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\out\list.o: APP\FreeRTOS\FreeRTOS.h
+.\out\list.o: E:\MDK5\ARM\ARMCC\Bin\..\include\stddef.h
+.\out\list.o: E:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\out\list.o: APP\FreeRTOS\FreeRTOSConfig.h
+.\out\list.o: APP\FreeRTOS\projdefs.h
+.\out\list.o: APP\FreeRTOS\portable.h
+.\out\list.o: APP\FreeRTOS\deprecated_definitions.h
+.\out\list.o: .\APP\FreeRTOS\port\portmacro.h
+.\out\list.o: APP\FreeRTOS\mpu_wrappers.h
+.\out\list.o: APP\FreeRTOS\list.h
