@@ -1,6 +1,15 @@
 MicroPython port to SWM320 (Cortex-M4 MCU)
 ==========================================
 
+## 系统
+### CPU主频
+``` python
+import machine
+
+machine.freq() #获得当前CPU频率
+machine.freq(100000000) #设置当前CPU频率为100MHz
+```
+
 ## Pin
 ### 输出
 ``` python
