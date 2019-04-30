@@ -1,4 +1,5 @@
 MicroPython port to SWM320 (Cortex-M4 MCU)
+上电后默认运行boot.py和main.py
 ==========================================
 
 ## 系统
