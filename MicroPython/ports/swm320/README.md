@@ -6,9 +6,40 @@ MicroPython port to SWM320 (Cortex-M4 MCU)
 ``` python
 import machine
 
-machine.freq() #获得当前CPU频率
-machine.freq(100000000) #设置当前CPU频率为100MHz
+machine.freq() #获得当前CPU频率（120Mhz）
 ```
+
+
+### 文件
+``` python
+import os
+
+os.listdir() #查看系统当前文件列表
+
+os.listdir('lib') #查看目录lib
+
+os.mkdir("PineconePi") #创建文件夹PineconePi
+
+os.chdir("PineconePi") #进入子目录PineconePi
+
+os.getcwd() # 获取当前目录
+
+os.rmdir("hx") #删除文件夹（只能是空的文件夹）
+
+os.rename("hm.txt","11") #重命名文件
+
+os.remove("11") #删除文件
+
+f = open('main.py', 'r') #以读取打开main.py
+f.read() #读取main.py内容
+f.close() #关闭文件
+
+f = open('main.py', 'W') #以写入打开main.py
+f.write("#PineconePi ONE\n") #对main.py写入内容#PineconePi ONE 并换行
+f.close() #关闭文件
+
+```
+
 
 ## Pin
 ### 输出
