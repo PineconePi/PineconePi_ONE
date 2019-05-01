@@ -8,6 +8,12 @@ MicroPython port to SWM320 (Cortex-M4 MCU)
 import machine
 
 machine.freq() #获得当前CPU频率（120Mhz）
+
+machine.reset() #重启设备
+
+machine.info() #获取设备信息
+
+machine.sleep() #睡眠模式
 ```
 
 
