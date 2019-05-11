@@ -3,10 +3,13 @@ Pinecone Pi ONE|松果派ONE开启你的极客之心：搭载华芯微特SWM320�
 
 ###  **目录结构** 
 
-1. Chipbook:芯片手册
-2. ISP_Download:ISP下载软件
-3. JLINK_Software:JLINK相关软件
-4. Keil Pack:Keil器件包
-5. Library：库函数（长期更新）
-6. RTOS：将各种RTOS移植到PineconePi ONE
-7. SynwitIAR：华芯微特SynwitIAR软件
+1. Board:配套扩展坞资料
+2. Chipbook:芯片手册
+3. ISP_Download:ISP下载软件
+4. JLINK_Software:JLINK相关软件
+5. Keil Pack:Keil器件包
+6. Library：库函数（长期更新）
+7. MicroPython：MicroPython源码及固件
+8. RTOS：将各种RTOS移植到PineconePi ONE
+9. Schematic diagram and PCB doc：原理图与封装库
+10. SynwitIAR：华芯微特SynwitIAR软件
