@@ -16,6 +16,18 @@ machine.info() #获取设备信息
 machine.sleep() #睡眠模式
 ```
 
+### 延迟
+``` python
+import time
+
+time.sleep(1) #延迟1秒
+
+time.sleep_ms(1) #延迟1毫秒
+
+time.sleep_us(1) #延迟1微秒
+
+```
+
 
 ### 文件
 ``` python
