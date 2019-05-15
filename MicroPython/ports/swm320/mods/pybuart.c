@@ -346,7 +346,7 @@ STATIC void UARTX_Handler(uint32_t uart_id) {
     {
         while(UART_IsRXFIFOEmpty(self->UARTx) == 0)
         {
-            if(UART_ReadByte(self->UARTx, &chr) == 1)
+            if(UART_ReadByte(self->UARTx, &chr) == 0)
             {
                 if (MP_STATE_PORT(os_term_dup_obj) && MP_STATE_PORT(os_term_dup_obj)->stream_o == self && chr == mp_interrupt_char) {
                     // raise an exception when interrupts are finished
