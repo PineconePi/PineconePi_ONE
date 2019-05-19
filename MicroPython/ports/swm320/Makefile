@@ -125,14 +125,15 @@ CFLAGS += $(CPPDEFINES) $(INC)
 
 
 
-all: $(BUILD)/firmware.bin
+all: $(BUILD)/micropython.bin
 
-$(BUILD)/firmware.elf: $(OBJ) $(LINKER_SCRIPT)
+$(BUILD)/micropython.elf: $(OBJ) $(LINKER_SCRIPT)
 	$(ECHO) "LINK $@"
 	$(Q)$(CC) -o $@ $(LDFLAGS) $(OBJ) $(LIBS)
+	$(CROSS_COMPILE)objdump -d $@ > $(BUILD)/micropython.dis
 	$(Q)$(SIZE) $@
 
-$(BUILD)/firmware.bin: $(BUILD)/firmware.elf
+$(BUILD)/micropython.bin: $(BUILD)/micropython.elf
 	$(ECHO) "Create $@"
 	$(Q)$(OBJCOPY) -O binary $< $@
 

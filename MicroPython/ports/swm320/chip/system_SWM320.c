@@ -31,7 +31,7 @@
 #define SYS_CLK_XTAL	3		//3 外部晶体振荡器（2-30MHz）
 #define SYS_CLK_PLL		4		//4 片内锁相环输出
 
-#define SYS_CLK   SYS_CLK_40MHz
+#define SYS_CLK   SYS_CLK_PLL
 
 
 #define SYS_CLK_DIV_1	0
@@ -42,18 +42,18 @@
 
 #define __HSI		(20000000UL)		//高速内部时钟
 #define __LSI		(   32000UL)		//低速内部时钟
-#define __HSE		( 4000000UL)		//高速外部时钟
+#define __HSE		(20000000UL)		//高速外部时钟
 
 
 /********************************** PLL 设定 **********************************************
  * VCO输出频率 = PLL输入时钟 / INDIV * 4 * FBDIV
  * PLL输出频率 = PLL输入时钟 / INDIV * 4 * FBDIV / OUTDIV = VCO输出频率 / OUTDIV         
  *****************************************************************************************/ 
-#define SYS_PLL_SRC   	SYS_CLK_20MHz	//可取值SYS_CLK_20MHz、SYS_CLK_XTAL
+#define SYS_PLL_SRC   	SYS_CLK_XTAL	//可取值SYS_CLK_20MHz、SYS_CLK_XTAL
 
-#define PLL_IN_DIV		6
+#define PLL_IN_DIV		5
 
-#define PLL_FB_DIV		50
+#define PLL_FB_DIV		60
 
 
 #define PLL_OUT_DIV8	0

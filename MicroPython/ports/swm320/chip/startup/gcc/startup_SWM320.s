@@ -82,7 +82,7 @@ __isr_vector:
     .long     LCD_Handler
     .long     NORFLC_Handler
     .long     CAN_Handler
-    .long     TIMR_Handler
+    .long     PULSE_Handler
     .long     WDT_Handler
     .long     PWM_Handler
     .long     UART0_Handler
@@ -106,6 +106,12 @@ __isr_vector:
     .long     ADC1_Handler
     .long     FPU_Handler
     .long     SPI1_Handler
+    .long     TIMR0_Handler
+	.long     TIMR1_Handler
+	.long     TIMR2_Handler
+	.long     TIMR3_Handler
+	.long     TIMR4_Handler
+	.long     TIMR5_Handler
 
 
 	.section .text.Reset_Handler
@@ -202,7 +208,7 @@ Reset_Handler:
     def_default_handler    LCD_Handler
     def_default_handler    NORFLC_Handler
     def_default_handler    CAN_Handler
-    def_default_handler    TIMR_Handler
+    def_default_handler    PULSE_Handler
     def_default_handler    WDT_Handler
     def_default_handler    PWM_Handler
     def_default_handler    UART0_Handler
@@ -225,6 +231,12 @@ Reset_Handler:
     def_default_handler    ADC1_Handler
     def_default_handler    FPU_Handler
     def_default_handler    SPI1_Handler
+    def_default_handler    TIMR0_Handler
+	def_default_handler    TIMR1_Handler
+	def_default_handler    TIMR2_Handler
+	def_default_handler    TIMR3_Handler
+	def_default_handler    TIMR4_Handler
+	def_default_handler    TIMR5_Handler
 
     def_default_handler    Default_Handler
 

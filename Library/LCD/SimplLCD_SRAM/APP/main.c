@@ -84,8 +84,8 @@ void RGBLCDInit(void)
 {
 	LCD_InitStructure LCD_initStruct;
 	
-	GPIO_Init(GPIOB, PIN0, 1, 0, 0);//背光控制
-	GPIO_SetBit(GPIOB, PIN0);		//点亮背光
+	GPIO_Init(GPIOC, PIN2, 1, 0, 0);//背光控制
+	GPIO_SetBit(GPIOC, PIN2);		//点亮背光
 	
 	PORT->PORTN_SEL0 = 0xAAAAAAAA;	//GPION.0～15  LCD_DATA0～15
 	PORT->PORTN_SEL1 = 0xAA;

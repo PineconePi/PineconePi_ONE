@@ -66,7 +66,6 @@ STATIC void init_sflash_filesystem (void);
 
 int main (void) {
     SystemInit();
-
     SysTick_Config(SystemCoreClock / 1000);
 
     gc_init(&__HeapBase, &__HeapLimit);

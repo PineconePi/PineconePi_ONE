@@ -31,7 +31,7 @@
 #define SYS_CLK_XTAL	3		//3 外部晶体振荡器（2-30MHz）
 #define SYS_CLK_PLL		4		//4 片内锁相环输出
 
-#define SYS_CLK   SYS_CLK_40MHz
+#define SYS_CLK   SYS_CLK_20MHz
 
 
 #define SYS_CLK_DIV_1	0

@@ -84,14 +84,14 @@ void RGBLCDInit(void)
 {
 	LCD_InitStructure LCD_initStruct;
 	
-	GPIO_Init(GPIOB, PIN0, 1, 0, 0);//背光控制
-	GPIO_SetBit(GPIOB, PIN0);		//点亮背光
+	GPIO_Init(GPIOC, PIN2, 1, 0, 0);//背光控制
+	GPIO_SetBit(GPIOC, PIN2);		//点亮背光
 	
 	PORT->PORTN_SEL0 = 0xAAAAAAAA;	//GPION.0～15  LCD_DATA0～15
 	PORT->PORTN_SEL1 = 0xAA;
 	
 	LCD_initStruct.Interface = LCD_INTERFACE_RGB;
-	LCD_initStruct.Dir = LCD_DIR_LANDSCAPE;
+	LCD_initStruct.Dir = LCD_DIR_PORTRAIT;
 	LCD_initStruct.HnPixel = 480;	//水平480像素
 	LCD_initStruct.VnPixel = 272;	//垂直272像素
 	LCD_initStruct.Hfp = 5;
