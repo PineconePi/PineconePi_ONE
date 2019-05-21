@@ -1,5 +1,5 @@
 Dependencies for Project 'SimplSDRAM', Target 'SWM320': (DO NOT MODIFY !)
-F (.\app\main.c)(0x5CE355BE)(-c --cpu Cortex-M4 -D__MICROLIB -g -O1 --apcs=interwork -I..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver-I I:\git\PineconePi_ONE\Library\SDRAM\SimplSDRAM\RTE-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport-I E:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514"-o .\out\main.o --omf_browse .\out\main.crf --depend .\out\main.d)
+F (.\app\main.c)(0x5CE36FFB)(-c --cpu Cortex-M4 -D__MICROLIB -g -O1 --apcs=interwork -I..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver-I I:\git\PineconePi_ONE\Library\SDRAM\SimplSDRAM\RTE-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport-I E:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514"-o .\out\main.o --omf_browse .\out\main.crf --depend .\out\main.d)
 I (..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport\SWM320.h)(0x5C37F654)
 I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
 I (..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport\core_cm4.h)(0x542135DE)
