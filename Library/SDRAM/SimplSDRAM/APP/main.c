@@ -1,13 +1,18 @@
 #include "SWM320.h"
-
-uint32_t WrBuff[] = {0x1C1C1C1C, 0x1D1D1D1D,
-				       0x1E1E1E1E, 0x1F1F1F1F, 0x20202020, 0x21212121, 0x22222222, 0x23232323, 0x24242424, 0x25252525, 0x26262626, 0x28282828};
+uint32_t WrBuff[48] = {0xAAAAAAAA,0x02020202,0x03030303,0x04040404,0x05050505,0x06060606,0x07070707,0x08080808,
+											 0x11111111,0x12121212,0x13131313,0x14141414,0x15151515,0x16161616,0x17171717,0x18181818,
+											 0x19191919,0x20202020,0x21212121,0x22222222,0x23232323,0x24242424,0x25252525,0x26262626,
+											 0x27272727,0x28282828,0x29292929,0x30303030,0x31313131,0x32323232,0x33333333,0x34343434,
+											 0x35353535,0x36363636,0x37373737,0x38383838,0x39393939,0x40404040,0x41414141,0x42424242,
+                       0x43434343,0x44444444,0x45454545,0x46464646,0x47474747,0x48484848,0x49494949,0x50505050};
 
 void SerialInit(void);
-
+//sdram 一个地址存储8位；
+//#define Interval_address 32//间隔32个地址也就是256bit的数据进行写入
 int main(void)
 {		
-	uint32_t i;
+	uint32_t i=0;
+//uint32_t j=1;
 	SDRAM_InitStructure SDRAM_InitStruct;
 		
 	SystemInit();
@@ -31,19 +36,26 @@ int main(void)
 	SDRAM_InitStruct.TimeTRAS = SDRAM_TRAS_6;
 	SDRAM_InitStruct.TimeTRC  = SDRAM_TRC_8;
 	SDRAM_InitStruct.TimeTRCD = SDRAM_TRCD_7;
-	SDRAM_InitStruct.TimeTRP  = SDRAM_TRP_7;
+	SDRAM_InitStruct.TimeTRP  = SDRAM_TRP_3;
 	SDRAM_Init(&SDRAM_InitStruct);
-	
-	for(i = 0; i < 20; i++)  *((volatile uint32_t *) (SDRAMM_BASE + i*4)) = 0x00000000;		// 只支持字操作
-	
+
+		for(i = 0; i < 48; i++) *((volatile uint32_t *) (SDRAMM_BASE + i*4))= 0x00000000; 	// 只支持字操作
 	printf("\r\nAfter Erase: \r\n");
-	for(i = 0; i < 20; i++)	printf("0x%08X, ",  *((volatile uint32_t *) (SDRAMM_BASE + i*4)));
-	
-	for(i = 0; i < 20; i++)  *((volatile uint32_t *) (SDRAMM_BASE + i*4)) = WrBuff[i];
-	
+	for(i = 0; i < 48; i++)	 printf("0x%08X, ",  *((volatile uint32_t *) (SDRAMM_BASE + i*4)));
+	for(i = 0; i < 48; i++)  *((volatile uint32_t *) (SDRAMM_BASE + i*4)) = WrBuff[i];
 	printf("\r\nAfter Write: \r\n");
-	for(i = 0; i < 20; i++)	printf("0x%08X, ",  *((volatile uint32_t *) (SDRAMM_BASE + i*4)));
-	
+	for(i = 0; i < 48; i++)
+	{
+	printf("0x%08X, ",  *((volatile uint32_t *) (SDRAMM_BASE +i*4)));  
+	if((i<=7)&&(i%7)==0)
+	{
+	printf("\r\n");
+	}
+	if((i>7)&&((i-7)%8)==0)
+	{
+	printf("\r\n");
+	}
+	}
 	while(1==1)
 	{
 	}
@@ -84,3 +96,34 @@ int fputc(int ch, FILE *f)
  	
 	return ch;
 }
+
+/********************* Write data routines at 256 bits intervals|间隔256bit写入数据例程 *************************/
+/*	
+	for(i = 0; i < 48; i++){ if((i+1)%8==0){j++;}*((volatile uint32_t *) (SDRAMM_BASE + i*4+Interval_address*j))= 0x00000000; }	// 只支持字操作
+	
+	printf("\r\nAfter Erase: \r\n");
+	j=1;
+	for(i = 0; i < 48; i++)	{if((i+1)%8==0){j++;} printf("0x%08X, ",  *((volatile uint32_t *) (SDRAMM_BASE + i*4+Interval_address*j)));}
+	j=1;
+	for(i = 0; i < 48; i++) { if((i+1)%8==0){j++;} *((volatile uint32_t *) (SDRAMM_BASE + i*4+Interval_address*j)) = WrBuff[i];}
+	
+	printf("\r\nAfter Write: \r\n");
+	j=1;
+	for(i = 0; i < 48; i++)
+	{
+		if((i+1)%8==0)
+		{
+			j++;
+		}
+	printf("0x%08X, ",  *((volatile uint32_t *) (SDRAMM_BASE +i*4+Interval_address*j)));  
+	if((i<=7)&&(i%7)==0)
+	{
+	printf("\r\n");
+	}
+	if((i>7)&&((i-7)%8)==0)
+	{
+	printf("\r\n");
+	}
+	}
+	
+	*/
