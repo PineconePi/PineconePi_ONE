@@ -1,5 +1,5 @@
 # PineconePi ONE（[Click to enter the website](http://www.pineconepi.cn)，Support：support@pineconepi.cn)
-![PineconePi ONE](https://github.com/pineconepi/Pinecone_Pi_Nano/raw/master/Image/PineconePiONE.png)
+![PineconePi ONE](https://github.com/pineconepi/PineconePi_ONE/raw/master/Image/PineconePiONE.png)
 Pinecone Pie ONE, open your geek heart: with Synwit SWM320VET7 Chip; low cost, small size, size only 48 mm X31 mm; pin full extraction; breadboard direct insertion; support for MicroPython; ARM-Cortex-M4 kernel; hardware one-cycle multiplication; 512KB FLASH, 128KB SRAM; peripheral cross-mapping; maximum resolution 1024*768 TFT-LCD driver; rich hardware Resources: 1 group of 32-bit watchdog timers, 6 groups of 32-bit universal timers, 1 group of 32-bit dedicated pulse width measurement timers, 12-channel 16-bit PWM generator, 2 8-channel 12-bit, successive approximation ADC module of IMSPS, onboard Ch330N. Rich chip information; multi-dock support.
 
 ###  **List** 
