@@ -1,0 +1,25 @@
+--cpu Cortex-M4
+".\out\main.o"
+".\out\swm320_adc.o"
+".\out\swm320_exti.o"
+".\out\swm320_gpio.o"
+".\out\swm320_i2c.o"
+".\out\swm320_pwm.o"
+".\out\swm320_timr.o"
+".\out\swm320_uart.o"
+".\out\swm320_wdt.o"
+".\out\swm320_dma.o"
+".\out\swm320_flash.o"
+".\out\swm320_port.o"
+".\out\swm320_spi.o"
+".\out\swm320_can.o"
+".\out\swm320_crc.o"
+".\out\swm320_lcd.o"
+".\out\swm320_rtc.o"
+".\out\swm320_sdio.o"
+".\out\system_swm320.o"
+".\out\startup_swm320.o"
+--library_type=microlib --strict --scatter ".\out\SimplPWM.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\out\SimplPWM.map" -o .\out\SimplPWM.axf
