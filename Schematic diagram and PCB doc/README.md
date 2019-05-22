@@ -5,8 +5,7 @@
 ###  **List** 
 
 1. CoreBoard_AD.zip: ONE core board package library (Altium Designer)
-2. Lcd Board.pdf: LCD expansion board schematic
-3. PineconePi ONE: PineconePi ONE schematic
+2. PineconePi ONE: PineconePi ONE schematic
 
 
 
@@ -16,5 +15,4 @@
 ###  **目录结构** 
 
 1. CoreBoard_AD.zip:ONE核心板封装库（AD）
-2. Lcd Board.pdf:LCD扩展板原理图
-3. PineconePi ONE:PineconePi ONE原理图
+2. PineconePi ONE:PineconePi ONE原理图
