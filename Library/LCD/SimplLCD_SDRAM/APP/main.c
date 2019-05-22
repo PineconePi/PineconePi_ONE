@@ -33,7 +33,7 @@ void RGBLCDInit(void);
 
 int main(void)
 {
-	uint32_t i,j;
+	uint32_t i,j,k;
 	uint16_t color[3] = {C_GREEN, C_BLACK, C_BLUE};
 	
 	SystemInit();
@@ -61,11 +61,15 @@ int main(void)
 	UG_FillFrame(100, 75, 400, 150, C_BLACK);
 	
 	UG_FontSelect(&FONT_12X20);
-	UG_PutString(120, 80, "Hi from Synwit");
-	
-	UG_DrawCircle(240, 210, 50, C_GREEN);
-	UG_DrawCircle(240, 210, 51, C_GREEN);
-	UG_DrawCircle(240, 210, 52, C_GREEN);
+	UG_PutString(120, 80, "PineconePi ONE");
+	UG_PutString(120, 110, "LCD Test");
+	for(j = 0; j < SystemCoreClock/2; j++) __NOP();
+//	UG_DrawCircle(240, 210, 10, C_GREEN);
+//	UG_DrawCircle(240, 210, 50, C_GREEN);
+//	UG_DrawCircle(240, 210, 51, C_GREEN);
+//	UG_DrawCircle(240, 210, 52, C_GREEN);
+//	UG_DrawCircle(240, 210, 53, C_GREEN);
+//	UG_DrawCircle(240, 210, 54, C_GREEN);
 
 	while(1==1)
 	{		
@@ -75,7 +79,16 @@ int main(void)
 			
 			UG_FillFrame(100, 75, 400, 150, color[i]);
 		}
-	}
+		for(k=5;k<54;k++)
+		{
+			for(j = 0; j < SystemCoreClock/2000; j++) __NOP();
+			UG_DrawCircle(240, 210, k, C_GREEN);
+			UG_DrawCircle(240, 210, k-5, C_RED);
+			UG_DrawCircle(350, 210, k, C_GREEN);
+			UG_DrawCircle(350, 210, k-5, C_RED);
+		}
+		for(k=48;k<54;k++) UG_DrawCircle(350, 210, k, C_RED);
+    }
 }
 
 

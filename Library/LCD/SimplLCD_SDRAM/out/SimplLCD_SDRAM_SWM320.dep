@@ -1,5 +1,5 @@
 Dependencies for Project 'SimplLCD_SDRAM', Target 'SWM320': (DO NOT MODIFY !)
-F (.\app\main.c)(0x5CDFCD3A)(-c --cpu Cortex-M4 -D__MICROLIB -g -O1 --apcs=interwork -I..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I.\APP-I I:\git\PineconePi_ONE\Library\LCD\SimplLCD_SDRAM\RTE-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport-I E:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514"-o .\out\main.o --omf_browse .\out\main.crf --depend .\out\main.d)
+F (.\app\main.c)(0x5CE49309)(-c --cpu Cortex-M4 -D__MICROLIB -g -O1 --apcs=interwork -I..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I.\APP-I I:\git\PineconePi_ONE\Library\LCD\SimplLCD_SDRAM\RTE-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport-I E:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514"-o .\out\main.o --omf_browse .\out\main.crf --depend .\out\main.d)
 I (..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport\SWM320.h)(0x5C37F654)
 I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
 I (..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport\core_cm4.h)(0x542135DE)
@@ -586,7 +586,7 @@ I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_sram.h)(0x5B
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CB)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x5ABC53CB)
 I (..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-F (..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport\system_SWM320.c)(0x5C42E49C)(-c --cpu Cortex-M4 -D__MICROLIB -g -O1 --apcs=interwork -I..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I.\APP-I I:\git\PineconePi_ONE\Library\LCD\SimplLCD_SDRAM\RTE-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport-I E:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514"-o .\out\system_swm320.o --omf_browse .\out\system_swm320.crf --depend .\out\system_swm320.d)
+F (..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport\system_SWM320.c)(0x5CE48D4D)(-c --cpu Cortex-M4 -D__MICROLIB -g -O1 --apcs=interwork -I..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\CoreSupport -I..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport -I..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver -I.\APP-I I:\git\PineconePi_ONE\Library\LCD\SimplLCD_SDRAM\RTE-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport-I E:\MDK5\ARM\CMSIS\Include-D__UVISION_VERSION="514"-o .\out\system_swm320.o --omf_browse .\out\system_swm320.crf --depend .\out\system_swm320.d)
 I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
 I (..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport\SWM320.h)(0x5C37F654)
 I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)

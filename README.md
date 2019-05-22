@@ -16,6 +16,7 @@ Pinecone Pie ONE, open your geek heart: with Synwit SWM320VET7 Chip; low cost, s
 10. Schematic diagram and PCB doc：Schematic diagram and PCB doc about PineconePi ONE
 11. SynwitIAR：SynwitIAR Software
 
+(PS:We are very sorry that the translation of related data for PineconePi ONE is progressing. Most of the information is only available in Chinese. If you are using this material, you are expected to use translation software such as Google Translate for translation. Thank you for your understanding and support!)
 
 
 # PineconePi ONE（[点我进入官网](http://www.pineconepi.cn)，官方交流企鹅群：481227232)
