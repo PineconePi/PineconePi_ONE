@@ -1,0 +1,15 @@
+--cpu Cortex-M4
+".\objects\system_swm320.o"
+".\objects\startup_swm320.o"
+".\objects\main.o"
+".\objects\swm320_gpio.o"
+".\objects\swm320_port.o"
+".\objects\swm320_spi.o"
+".\objects\swm320_uart.o"
+".\objects\bsp_systick.o"
+".\objects\bsp_uart.o"
+".\objects\bsp_spiflash.o"
+--library_type=microlib --strict --scatter ".\Objects\SWM320_SPIFlash.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\SWM320_SPIFlash.map" -o .\Objects\SWM320_SPIFlash.axf

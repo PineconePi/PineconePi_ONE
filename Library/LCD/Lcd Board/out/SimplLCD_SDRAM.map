@@ -1,0 +1,749 @@
+Component: ARM Compiler 5.05 update 1 (build 106) Tool: armlink [4d0efa]
+
+==============================================================================
+
+Section Cross References
+
+    main.o(.text) refers to swm320_gpio.o(.text) for GPIO_Init
+    main.o(.text) refers to swm320_lcd.o(.text) for LCD_Init
+    main.o(.text) refers to swm320_sdram.o(.text) for SDRAM_Init
+    main.o(.text) refers to swm320_port.o(.text) for PORT_Init
+    main.o(.text) refers to swm320_uart.o(.text) for UART_Init
+    main.o(.text) refers to system_swm320.o(.text) for SystemInit
+    main.o(.text) refers to ugui.o(.text) for UG_Init
+    main.o(.text) refers to main.o(.ARM.__AT_0x70000000) for .ARM.__AT_0x70000000
+    main.o(.text) refers to main.o(.constdata) for .constdata
+    main.o(.text) refers to main.o(.bss) for .bss
+    main.o(.text) refers to ugui.o(.constdata) for FONT_12X20
+    main.o(.text) refers to system_swm320.o(.data) for SystemCoreClock
+    ugui.o(.text) refers to memcpya.o(.text) for __aeabi_memcpy4
+    ugui.o(.text) refers to ugui.o(.data) for .data
+    ugui.o(.text) refers to ugui.o(.constdata) for .constdata
+    ugui.o(.constdata) refers to ugui.o(.constdata) for font_12x20
+    swm320_adc.o(.text) refers to system_swm320.o(.text) for PLLInit
+    swm320_gpio.o(.text) refers to swm320_port.o(.text) for PORT_Init
+    swm320_i2c.o(.text) refers to system_swm320.o(.data) for SystemCoreClock
+    swm320_uart.o(.text) refers to system_swm320.o(.data) for SystemCoreClock
+    swm320_can.o(.text) refers to system_swm320.o(.data) for SystemCoreClock
+    swm320_rtc.o(.text) refers to memcpya.o(.text) for __aeabi_memcpy4
+    swm320_rtc.o(.text) refers to swm320_rtc.o(.constdata) for .constdata
+    swm320_sdio.o(.text) refers to system_swm320.o(.data) for SystemCoreClock
+    swm320_sdio.o(.text) refers to swm320_sdio.o(.bss) for .bss
+    system_swm320.o(.text) refers to system_swm320.o(.data) for .data
+    startup_swm320.o(RESET) refers to startup_swm320.o(STACK) for __initial_sp
+    startup_swm320.o(RESET) refers to startup_swm320.o(.text) for Reset_Handler
+    startup_swm320.o(RESET) refers to main.o(.text) for LCD_Handler
+    startup_swm320.o(.text) refers to entry.o(.ARM.Collect$$$$00000000) for __main
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry10a.o(.ARM.Collect$$$$0000000D) for __rt_final_cpp
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry11a.o(.ARM.Collect$$$$0000000F) for __rt_final_exit
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry7b.o(.ARM.Collect$$$$00000008) for _main_clock
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry8b.o(.ARM.Collect$$$$0000000A) for _main_cpp_init
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry9a.o(.ARM.Collect$$$$0000000B) for _main_init
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry5.o(.ARM.Collect$$$$00000004) for _main_scatterload
+    entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry2.o(.ARM.Collect$$$$00000001) for _main_stk
+    entry2.o(.ARM.Collect$$$$00000001) refers to entry2.o(.ARM.Collect$$$$00002712) for __lit__00000000
+    entry2.o(.ARM.Collect$$$$00002712) refers to startup_swm320.o(STACK) for __initial_sp
+    entry2.o(__vectab_stack_and_reset_area) refers to startup_swm320.o(STACK) for __initial_sp
+    entry2.o(__vectab_stack_and_reset_area) refers to entry.o(.ARM.Collect$$$$00000000) for __main
+    entry5.o(.ARM.Collect$$$$00000004) refers to init.o(.text) for __scatterload
+    entry9a.o(.ARM.Collect$$$$0000000B) refers to main.o(.text) for main
+    entry9b.o(.ARM.Collect$$$$0000000C) refers to main.o(.text) for main
+    init.o(.text) refers to entry5.o(.ARM.Collect$$$$00000004) for __main_after_scatterload
+
+
+==============================================================================
+
+Removing Unused input sections from the image.
+
+    Removing main.o(.rev16_text), (4 bytes).
+    Removing main.o(.revsh_text), (4 bytes).
+    Removing main.o(.rrx_text), (6 bytes).
+    Removing swm320_adc.o(.rev16_text), (4 bytes).
+    Removing swm320_adc.o(.revsh_text), (4 bytes).
+    Removing swm320_adc.o(.rrx_text), (6 bytes).
+    Removing swm320_adc.o(.text), (1384 bytes).
+    Removing swm320_exti.o(.rev16_text), (4 bytes).
+    Removing swm320_exti.o(.revsh_text), (4 bytes).
+    Removing swm320_exti.o(.rrx_text), (6 bytes).
+    Removing swm320_exti.o(.text), (152 bytes).
+    Removing swm320_gpio.o(.rev16_text), (4 bytes).
+    Removing swm320_gpio.o(.revsh_text), (4 bytes).
+    Removing swm320_gpio.o(.rrx_text), (6 bytes).
+    Removing swm320_i2c.o(.rev16_text), (4 bytes).
+    Removing swm320_i2c.o(.revsh_text), (4 bytes).
+    Removing swm320_i2c.o(.rrx_text), (6 bytes).
+    Removing swm320_i2c.o(.text), (476 bytes).
+    Removing swm320_pwm.o(.rev16_text), (4 bytes).
+    Removing swm320_pwm.o(.revsh_text), (4 bytes).
+    Removing swm320_pwm.o(.rrx_text), (6 bytes).
+    Removing swm320_pwm.o(.text), (2294 bytes).
+    Removing swm320_timr.o(.rev16_text), (4 bytes).
+    Removing swm320_timr.o(.revsh_text), (4 bytes).
+    Removing swm320_timr.o(.rrx_text), (6 bytes).
+    Removing swm320_timr.o(.text), (928 bytes).
+    Removing swm320_uart.o(.rev16_text), (4 bytes).
+    Removing swm320_uart.o(.revsh_text), (4 bytes).
+    Removing swm320_uart.o(.rrx_text), (6 bytes).
+    Removing swm320_wdt.o(.rev16_text), (4 bytes).
+    Removing swm320_wdt.o(.revsh_text), (4 bytes).
+    Removing swm320_wdt.o(.rrx_text), (6 bytes).
+    Removing swm320_wdt.o(.text), (104 bytes).
+    Removing swm320_dma.o(.rev16_text), (4 bytes).
+    Removing swm320_dma.o(.revsh_text), (4 bytes).
+    Removing swm320_dma.o(.rrx_text), (6 bytes).
+    Removing swm320_dma.o(.text), (196 bytes).
+    Removing swm320_flash.o(.rev16_text), (4 bytes).
+    Removing swm320_flash.o(.revsh_text), (4 bytes).
+    Removing swm320_flash.o(.rrx_text), (6 bytes).
+    Removing swm320_flash.o(.text), (152 bytes).
+    Removing swm320_flash.o(.data), (48 bytes).
+    Removing swm320_port.o(.rev16_text), (4 bytes).
+    Removing swm320_port.o(.revsh_text), (4 bytes).
+    Removing swm320_port.o(.rrx_text), (6 bytes).
+    Removing swm320_spi.o(.rev16_text), (4 bytes).
+    Removing swm320_spi.o(.revsh_text), (4 bytes).
+    Removing swm320_spi.o(.rrx_text), (6 bytes).
+    Removing swm320_spi.o(.text), (524 bytes).
+    Removing swm320_can.o(.rev16_text), (4 bytes).
+    Removing swm320_can.o(.revsh_text), (4 bytes).
+    Removing swm320_can.o(.rrx_text), (6 bytes).
+    Removing swm320_can.o(.text), (944 bytes).
+    Removing swm320_crc.o(.rev16_text), (4 bytes).
+    Removing swm320_crc.o(.revsh_text), (4 bytes).
+    Removing swm320_crc.o(.rrx_text), (6 bytes).
+    Removing swm320_crc.o(.text), (44 bytes).
+    Removing swm320_lcd.o(.rev16_text), (4 bytes).
+    Removing swm320_lcd.o(.revsh_text), (4 bytes).
+    Removing swm320_lcd.o(.rrx_text), (6 bytes).
+    Removing swm320_rtc.o(.rev16_text), (4 bytes).
+    Removing swm320_rtc.o(.revsh_text), (4 bytes).
+    Removing swm320_rtc.o(.rrx_text), (6 bytes).
+    Removing swm320_rtc.o(.text), (648 bytes).
+    Removing swm320_rtc.o(.constdata), (52 bytes).
+    Removing swm320_sdio.o(.rev16_text), (4 bytes).
+    Removing swm320_sdio.o(.revsh_text), (4 bytes).
+    Removing swm320_sdio.o(.rrx_text), (6 bytes).
+    Removing swm320_sdio.o(.text), (1468 bytes).
+    Removing swm320_sdio.o(.bss), (80 bytes).
+    Removing swm320_norflash.o(.rev16_text), (4 bytes).
+    Removing swm320_norflash.o(.revsh_text), (4 bytes).
+    Removing swm320_norflash.o(.rrx_text), (6 bytes).
+    Removing swm320_norflash.o(.text), (320 bytes).
+    Removing swm320_sdram.o(.rev16_text), (4 bytes).
+    Removing swm320_sdram.o(.revsh_text), (4 bytes).
+    Removing swm320_sdram.o(.rrx_text), (6 bytes).
+    Removing system_swm320.o(.rev16_text), (4 bytes).
+    Removing system_swm320.o(.revsh_text), (4 bytes).
+    Removing system_swm320.o(.rrx_text), (6 bytes).
+    Removing system_swm320.o(.data), (4 bytes).
+    Removing startup_swm320.o(HEAP), (512 bytes).
+
+82 unused section(s) (total 10624 bytes) removed from the image.
+
+==============================================================================
+
+Image Symbol Table
+
+    Local Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    RESET                                    0x00000000   Section      328  startup_swm320.o(RESET)
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry5.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry9b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry2.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry11b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry11a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry10b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry10a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry9a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry8b.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry8a.o ABSOLUTE
+    ../clib/microlib/init/entry.s            0x00000000   Number         0  entry7b.o ABSOLUTE
+    ../clib/microlib/string/memcpy.c         0x00000000   Number         0  memcpya.o ABSOLUTE
+    ../clib/microlib/string/memcpy.c         0x00000000   Number         0  memcpyb.o ABSOLUTE
+    ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport\startup\arm\startup_SWM320.s 0x00000000   Number         0  startup_swm320.o ABSOLUTE
+    ..\..\SWM320_StdPeriph_Driver\CSL\CMSIS\DeviceSupport\system_SWM320.c 0x00000000   Number         0  system_swm320.o ABSOLUTE
+    ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_adc.c 0x00000000   Number         0  swm320_adc.o ABSOLUTE
+    ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_can.c 0x00000000   Number         0  swm320_can.o ABSOLUTE
+    ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_crc.c 0x00000000   Number         0  swm320_crc.o ABSOLUTE
+    ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_dma.c 0x00000000   Number         0  swm320_dma.o ABSOLUTE
+    ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_exti.c 0x00000000   Number         0  swm320_exti.o ABSOLUTE
+    ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_flash.c 0x00000000   Number         0  swm320_flash.o ABSOLUTE
+    ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_gpio.c 0x00000000   Number         0  swm320_gpio.o ABSOLUTE
+    ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_i2c.c 0x00000000   Number         0  swm320_i2c.o ABSOLUTE
+    ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_lcd.c 0x00000000   Number         0  swm320_lcd.o ABSOLUTE
+    ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_norflash.c 0x00000000   Number         0  swm320_norflash.o ABSOLUTE
+    ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_port.c 0x00000000   Number         0  swm320_port.o ABSOLUTE
+    ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_pwm.c 0x00000000   Number         0  swm320_pwm.o ABSOLUTE
+    ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_rtc.c 0x00000000   Number         0  swm320_rtc.o ABSOLUTE
+    ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_sdio.c 0x00000000   Number         0  swm320_sdio.o ABSOLUTE
+    ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_sdram.c 0x00000000   Number         0  swm320_sdram.o ABSOLUTE
+    ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_spi.c 0x00000000   Number         0  swm320_spi.o ABSOLUTE
+    ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_timr.c 0x00000000   Number         0  swm320_timr.o ABSOLUTE
+    ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_uart.c 0x00000000   Number         0  swm320_uart.o ABSOLUTE
+    ..\..\SWM320_StdPeriph_Driver\CSL\SWM320_StdPeriph_Driver\SWM320_wdt.c 0x00000000   Number         0  swm320_wdt.o ABSOLUTE
+    ..\\..\\SWM320_StdPeriph_Driver\\CSL\\CMSIS\\DeviceSupport\\system_SWM320.c 0x00000000   Number         0  system_swm320.o ABSOLUTE
+    ..\\..\\SWM320_StdPeriph_Driver\\CSL\\SWM320_StdPeriph_Driver\\SWM320_adc.c 0x00000000   Number         0  swm320_adc.o ABSOLUTE
+    ..\\..\\SWM320_StdPeriph_Driver\\CSL\\SWM320_StdPeriph_Driver\\SWM320_can.c 0x00000000   Number         0  swm320_can.o ABSOLUTE
+    ..\\..\\SWM320_StdPeriph_Driver\\CSL\\SWM320_StdPeriph_Driver\\SWM320_crc.c 0x00000000   Number         0  swm320_crc.o ABSOLUTE
+    ..\\..\\SWM320_StdPeriph_Driver\\CSL\\SWM320_StdPeriph_Driver\\SWM320_dma.c 0x00000000   Number         0  swm320_dma.o ABSOLUTE
+    ..\\..\\SWM320_StdPeriph_Driver\\CSL\\SWM320_StdPeriph_Driver\\SWM320_exti.c 0x00000000   Number         0  swm320_exti.o ABSOLUTE
+    ..\\..\\SWM320_StdPeriph_Driver\\CSL\\SWM320_StdPeriph_Driver\\SWM320_flash.c 0x00000000   Number         0  swm320_flash.o ABSOLUTE
+    ..\\..\\SWM320_StdPeriph_Driver\\CSL\\SWM320_StdPeriph_Driver\\SWM320_gpio.c 0x00000000   Number         0  swm320_gpio.o ABSOLUTE
+    ..\\..\\SWM320_StdPeriph_Driver\\CSL\\SWM320_StdPeriph_Driver\\SWM320_i2c.c 0x00000000   Number         0  swm320_i2c.o ABSOLUTE
+    ..\\..\\SWM320_StdPeriph_Driver\\CSL\\SWM320_StdPeriph_Driver\\SWM320_lcd.c 0x00000000   Number         0  swm320_lcd.o ABSOLUTE
+    ..\\..\\SWM320_StdPeriph_Driver\\CSL\\SWM320_StdPeriph_Driver\\SWM320_norflash.c 0x00000000   Number         0  swm320_norflash.o ABSOLUTE
+    ..\\..\\SWM320_StdPeriph_Driver\\CSL\\SWM320_StdPeriph_Driver\\SWM320_port.c 0x00000000   Number         0  swm320_port.o ABSOLUTE
+    ..\\..\\SWM320_StdPeriph_Driver\\CSL\\SWM320_StdPeriph_Driver\\SWM320_pwm.c 0x00000000   Number         0  swm320_pwm.o ABSOLUTE
+    ..\\..\\SWM320_StdPeriph_Driver\\CSL\\SWM320_StdPeriph_Driver\\SWM320_rtc.c 0x00000000   Number         0  swm320_rtc.o ABSOLUTE
+    ..\\..\\SWM320_StdPeriph_Driver\\CSL\\SWM320_StdPeriph_Driver\\SWM320_sdio.c 0x00000000   Number         0  swm320_sdio.o ABSOLUTE
+    ..\\..\\SWM320_StdPeriph_Driver\\CSL\\SWM320_StdPeriph_Driver\\SWM320_sdram.c 0x00000000   Number         0  swm320_sdram.o ABSOLUTE
+    ..\\..\\SWM320_StdPeriph_Driver\\CSL\\SWM320_StdPeriph_Driver\\SWM320_spi.c 0x00000000   Number         0  swm320_spi.o ABSOLUTE
+    ..\\..\\SWM320_StdPeriph_Driver\\CSL\\SWM320_StdPeriph_Driver\\SWM320_timr.c 0x00000000   Number         0  swm320_timr.o ABSOLUTE
+    ..\\..\\SWM320_StdPeriph_Driver\\CSL\\SWM320_StdPeriph_Driver\\SWM320_uart.c 0x00000000   Number         0  swm320_uart.o ABSOLUTE
+    ..\\..\\SWM320_StdPeriph_Driver\\CSL\\SWM320_StdPeriph_Driver\\SWM320_wdt.c 0x00000000   Number         0  swm320_wdt.o ABSOLUTE
+    APP\ugui.c                               0x00000000   Number         0  ugui.o ABSOLUTE
+    app\\main.c                              0x00000000   Number         0  main.o ABSOLUTE
+    app\main.c                               0x00000000   Number         0  main.o ABSOLUTE
+    dc.s                                     0x00000000   Number         0  dc.o ABSOLUTE
+    handlers.s                               0x00000000   Number         0  handlers.o ABSOLUTE
+    init.s                                   0x00000000   Number         0  init.o ABSOLUTE
+    .ARM.Collect$$$$00000000                 0x00000148   Section        0  entry.o(.ARM.Collect$$$$00000000)
+    .ARM.Collect$$$$00000001                 0x00000148   Section        4  entry2.o(.ARM.Collect$$$$00000001)
+    .ARM.Collect$$$$00000004                 0x0000014c   Section        4  entry5.o(.ARM.Collect$$$$00000004)
+    .ARM.Collect$$$$00000008                 0x00000150   Section        0  entry7b.o(.ARM.Collect$$$$00000008)
+    .ARM.Collect$$$$0000000A                 0x00000150   Section        0  entry8b.o(.ARM.Collect$$$$0000000A)
+    .ARM.Collect$$$$0000000B                 0x00000150   Section        8  entry9a.o(.ARM.Collect$$$$0000000B)
+    .ARM.Collect$$$$0000000D                 0x00000158   Section        0  entry10a.o(.ARM.Collect$$$$0000000D)
+    .ARM.Collect$$$$0000000F                 0x00000158   Section        0  entry11a.o(.ARM.Collect$$$$0000000F)
+    .ARM.Collect$$$$00002712                 0x00000158   Section        4  entry2.o(.ARM.Collect$$$$00002712)
+    __lit__00000000                          0x00000158   Data           4  entry2.o(.ARM.Collect$$$$00002712)
+    .text                                    0x0000015c   Section        0  main.o(.text)
+    .text                                    0x000004a4   Section        0  ugui.o(.text)
+    .text                                    0x0000321c   Section        0  swm320_gpio.o(.text)
+    .text                                    0x00003518   Section        0  swm320_uart.o(.text)
+    NVIC_EnableIRQ                           0x0000384f   Thumb Code    22  swm320_uart.o(.text)
+    NVIC_DisableIRQ                          0x00003865   Thumb Code    22  swm320_uart.o(.text)
+    .text                                    0x00003884   Section        0  swm320_port.o(.text)
+    .text                                    0x00003cb0   Section        0  swm320_lcd.o(.text)
+    .text                                    0x00003dc8   Section        0  swm320_sdram.o(.text)
+    .text                                    0x00003e38   Section        0  system_swm320.o(.text)
+    .text                                    0x00003ff0   Section      156  startup_swm320.o(.text)
+    .text                                    0x0000408c   Section        0  memcpya.o(.text)
+    .text                                    0x000040b0   Section       36  init.o(.text)
+    i.__scatterload_copy                     0x000040d4   Section       14  handlers.o(i.__scatterload_copy)
+    i.__scatterload_null                     0x000040e2   Section        2  handlers.o(i.__scatterload_null)
+    i.__scatterload_zeroinit                 0x000040e4   Section       14  handlers.o(i.__scatterload_zeroinit)
+    .constdata                               0x000040f4   Section        6  main.o(.constdata)
+    .constdata                               0x000040fa   Section    10240  ugui.o(.constdata)
+    .constdata                               0x000068fc   Section       20  ugui.o(.constdata)
+    .constdata                               0x00006910   Section      120  ugui.o(.constdata)
+    .data                                    0x20000000   Section       12  ugui.o(.data)
+    gui                                      0x20000000   Data           4  ugui.o(.data)
+    msg                                      0x20000004   Data           8  ugui.o(.data)
+    .data                                    0x2000000c   Section        4  system_swm320.o(.data)
+    .bss                                     0x20000010   Section      100  main.o(.bss)
+    STACK                                    0x20000078   Section     1024  startup_swm320.o(STACK)
+    .ARM.__AT_0x70000000                     0x70000000   Section    261120  main.o(.ARM.__AT_0x70000000)
+
+    Global Symbols
+
+    Symbol Name                              Value     Ov Type        Size  Object(Section)
+
+    BuildAttributes$$THM_ISAv4$E$P$D$K$B$S$7EM$PE$A:L22UL41UL21$X:L11$S22US41US21$IEEE1$IW$USESV6$~STKCKD$USESV7$~SHL$OSPACE$EBA8$MICROLIB$REQ8$PRES8$EABIv2 0x00000000   Number         0  anon$$obj.o ABSOLUTE
+    __ARM_use_no_argv                        0x00000000   Number         0  main.o ABSOLUTE
+    __Vectors                                0x00000000   Data           4  startup_swm320.o(RESET)
+    __cpp_initialize__aeabi_                  - Undefined Weak Reference
+    __cxa_finalize                            - Undefined Weak Reference
+    __decompress                              - Undefined Weak Reference
+    _clock_init                               - Undefined Weak Reference
+    _microlib_exit                            - Undefined Weak Reference
+    __Vectors_End                            0x00000148   Data           0  startup_swm320.o(RESET)
+    __Vectors_Size                           0x00000148   Number         0  startup_swm320.o ABSOLUTE
+    __main                                   0x00000149   Thumb Code     0  entry.o(.ARM.Collect$$$$00000000)
+    _main_stk                                0x00000149   Thumb Code     0  entry2.o(.ARM.Collect$$$$00000001)
+    _main_scatterload                        0x0000014d   Thumb Code     0  entry5.o(.ARM.Collect$$$$00000004)
+    __main_after_scatterload                 0x00000151   Thumb Code     0  entry5.o(.ARM.Collect$$$$00000004)
+    _main_clock                              0x00000151   Thumb Code     0  entry7b.o(.ARM.Collect$$$$00000008)
+    _main_cpp_init                           0x00000151   Thumb Code     0  entry8b.o(.ARM.Collect$$$$0000000A)
+    _main_init                               0x00000151   Thumb Code     0  entry9a.o(.ARM.Collect$$$$0000000B)
+    __rt_final_cpp                           0x00000159   Thumb Code     0  entry10a.o(.ARM.Collect$$$$0000000D)
+    __rt_final_exit                          0x00000159   Thumb Code     0  entry11a.o(.ARM.Collect$$$$0000000F)
+    _HW_DrawPoint                            0x0000015d   Thumb Code    80  main.o(.text)
+    RGBLCDInit                               0x000001ad   Thumb Code   122  main.o(.text)
+    MemoryInit                               0x00000227   Thumb Code    90  main.o(.text)
+    SerialInit                               0x00000281   Thumb Code    76  main.o(.text)
+    main                                     0x000002cd   Thumb Code   350  main.o(.text)
+    LCD_Handler                              0x0000042b   Thumb Code    20  main.o(.text)
+    fputc                                    0x0000043f   Thumb Code    28  main.o(.text)
+    UG_Init                                  0x000004a5   Thumb Code   102  ugui.o(.text)
+    UG_SelectGUI                             0x0000050b   Thumb Code     8  ugui.o(.text)
+    UG_FontSelect                            0x00000513   Thumb Code    14  ugui.o(.text)
+    UG_FillFrame                             0x00000521   Thumb Code   112  ugui.o(.text)
+    UG_FillScreen                            0x00000591   Thumb Code    30  ugui.o(.text)
+    UG_DrawLine                              0x000005af   Thumb Code   238  ugui.o(.text)
+    UG_FillRoundFrame                        0x0000069d   Thumb Code   252  ugui.o(.text)
+    UG_DrawMesh                              0x00000799   Thumb Code    80  ugui.o(.text)
+    UG_DrawFrame                             0x000007e9   Thumb Code    74  ugui.o(.text)
+    UG_DrawArc                               0x00000833   Thumb Code   304  ugui.o(.text)
+    UG_DrawRoundFrame                        0x00000963   Thumb Code   184  ugui.o(.text)
+    UG_DrawPixel                             0x00000a1b   Thumb Code     8  ugui.o(.text)
+    UG_DrawCircle                            0x00000a23   Thumb Code   254  ugui.o(.text)
+    UG_FillCircle                            0x00000b21   Thumb Code   212  ugui.o(.text)
+    _UG_PutChar                              0x00000bf5   Thumb Code   750  ugui.o(.text)
+    UG_PutChar                               0x00000ee3   Thumb Code    20  ugui.o(.text)
+    UG_PutString                             0x00000ef7   Thumb Code   130  ugui.o(.text)
+    UG_ConsolePutString                      0x00000f79   Thumb Code   154  ugui.o(.text)
+    UG_ConsoleSetArea                        0x00001013   Thumb Code    16  ugui.o(.text)
+    UG_ConsoleSetForecolor                   0x00001023   Thumb Code     8  ugui.o(.text)
+    UG_ConsoleSetBackcolor                   0x0000102b   Thumb Code     8  ugui.o(.text)
+    UG_SetForecolor                          0x00001033   Thumb Code    10  ugui.o(.text)
+    UG_SetBackcolor                          0x0000103d   Thumb Code    10  ugui.o(.text)
+    UG_GetXDim                               0x00001047   Thumb Code    10  ugui.o(.text)
+    UG_GetYDim                               0x00001051   Thumb Code    10  ugui.o(.text)
+    UG_FontSetHSpace                         0x0000105b   Thumb Code    10  ugui.o(.text)
+    UG_FontSetVSpace                         0x00001065   Thumb Code    10  ugui.o(.text)
+    _UG_PutText                              0x0000106f   Thumb Code   334  ugui.o(.text)
+    _UG_GetFreeObject                        0x000011bd   Thumb Code    40  ugui.o(.text)
+    _UG_SearchObject                         0x000011e5   Thumb Code    48  ugui.o(.text)
+    _UG_DeleteObject                         0x00001215   Thumb Code    50  ugui.o(.text)
+    _UG_ProcessTouchData                     0x00001247   Thumb Code   190  ugui.o(.text)
+    _UG_UpdateObjects                        0x00001305   Thumb Code    80  ugui.o(.text)
+    _UG_HandleEvents                         0x00001355   Thumb Code    90  ugui.o(.text)
+    _UG_DrawObjectFrame                      0x000013af   Thumb Code   308  ugui.o(.text)
+    _UG_SendObjectPrerenderEvent             0x000014e3   Thumb Code    34  ugui.o(.text)
+    _UG_SendObjectPostrenderEvent            0x00001505   Thumb Code    36  ugui.o(.text)
+    UG_DriverRegister                        0x00001529   Thumb Code    22  ugui.o(.text)
+    UG_DriverEnable                          0x0000153f   Thumb Code    30  ugui.o(.text)
+    UG_DriverDisable                         0x0000155d   Thumb Code    30  ugui.o(.text)
+    _UG_WindowDrawTitle                      0x0000157b   Thumb Code   208  ugui.o(.text)
+    _UG_WindowUpdate                         0x0000164b   Thumb Code   198  ugui.o(.text)
+    UG_Update                                0x00001711   Thumb Code   170  ugui.o(.text)
+    UG_WaitForUpdate                         0x000017bb   Thumb Code    20  ugui.o(.text)
+    UG_DrawBMP                               0x000017cf   Thumb Code   108  ugui.o(.text)
+    UG_TouchUpdate                           0x0000183b   Thumb Code    12  ugui.o(.text)
+    UG_WindowCreate                          0x00001847   Thumb Code   134  ugui.o(.text)
+    UG_WindowDelete                          0x000018cd   Thumb Code    54  ugui.o(.text)
+    UG_WindowShow                            0x00001903   Thumb Code    32  ugui.o(.text)
+    _UG_WindowClear                          0x00001923   Thumb Code    88  ugui.o(.text)
+    UG_WindowHide                            0x0000197b   Thumb Code   118  ugui.o(.text)
+    UG_WindowResize                          0x000019f1   Thumb Code   252  ugui.o(.text)
+    UG_WindowSetTitleColor                   0x00001aed   Thumb Code    28  ugui.o(.text)
+    UG_WindowGetTitleColor                   0x00001b09   Thumb Code    18  ugui.o(.text)
+    UG_WindowSetTitleTextColor               0x00001b1b   Thumb Code    28  ugui.o(.text)
+    UG_WindowGetTitleTextColor               0x00001b37   Thumb Code    18  ugui.o(.text)
+    UG_WindowAlert                           0x00001b49   Thumb Code    58  ugui.o(.text)
+    UG_WindowSetForeColor                    0x00001b83   Thumb Code    28  ugui.o(.text)
+    UG_WindowSetBackColor                    0x00001b9f   Thumb Code    28  ugui.o(.text)
+    UG_WindowSetTitleInactiveTextColor       0x00001bbb   Thumb Code    28  ugui.o(.text)
+    UG_WindowSetTitleInactiveColor           0x00001bd7   Thumb Code    28  ugui.o(.text)
+    UG_WindowSetTitleText                    0x00001bf3   Thumb Code    28  ugui.o(.text)
+    UG_WindowSetTitleTextFont                0x00001c0f   Thumb Code    56  ugui.o(.text)
+    UG_WindowSetTitleTextHSpace              0x00001c47   Thumb Code    30  ugui.o(.text)
+    UG_WindowSetTitleTextVSpace              0x00001c65   Thumb Code    30  ugui.o(.text)
+    UG_WindowSetTitleTextAlignment           0x00001c83   Thumb Code    30  ugui.o(.text)
+    UG_WindowSetTitleHeight                  0x00001ca1   Thumb Code    34  ugui.o(.text)
+    UG_WindowSetXStart                       0x00001cc3   Thumb Code    52  ugui.o(.text)
+    UG_WindowSetYStart                       0x00001cf7   Thumb Code    56  ugui.o(.text)
+    UG_WindowSetXEnd                         0x00001d2f   Thumb Code    56  ugui.o(.text)
+    UG_WindowSetYEnd                         0x00001d67   Thumb Code    52  ugui.o(.text)
+    UG_WindowSetStyle                        0x00001d9b   Thumb Code    70  ugui.o(.text)
+    UG_WindowGetForeColor                    0x00001de1   Thumb Code    18  ugui.o(.text)
+    UG_WindowGetBackColor                    0x00001df3   Thumb Code    18  ugui.o(.text)
+    UG_WindowGetTitleInactiveTextColor       0x00001e05   Thumb Code    18  ugui.o(.text)
+    UG_WindowGetTitleInactiveColor           0x00001e17   Thumb Code    18  ugui.o(.text)
+    UG_WindowGetTitleText                    0x00001e29   Thumb Code    18  ugui.o(.text)
+    UG_WindowGetTitleTextFont                0x00001e3b   Thumb Code    18  ugui.o(.text)
+    UG_WindowGetTitleTextHSpace              0x00001e4d   Thumb Code    20  ugui.o(.text)
+    UG_WindowGetTitleTextVSpace              0x00001e61   Thumb Code    20  ugui.o(.text)
+    UG_WindowGetTitleTextAlignment           0x00001e75   Thumb Code    20  ugui.o(.text)
+    UG_WindowGetTitleHeight                  0x00001e89   Thumb Code    20  ugui.o(.text)
+    UG_WindowGetXStart                       0x00001e9d   Thumb Code    22  ugui.o(.text)
+    UG_WindowGetYStart                       0x00001eb3   Thumb Code    22  ugui.o(.text)
+    UG_WindowGetXEnd                         0x00001ec9   Thumb Code    22  ugui.o(.text)
+    UG_WindowGetYEnd                         0x00001edf   Thumb Code    22  ugui.o(.text)
+    UG_WindowGetStyle                        0x00001ef5   Thumb Code    18  ugui.o(.text)
+    UG_WindowGetArea                         0x00001f07   Thumb Code    86  ugui.o(.text)
+    UG_WindowGetInnerWidth                   0x00001f5d   Thumb Code    40  ugui.o(.text)
+    UG_WindowGetOuterWidth                   0x00001f85   Thumb Code    30  ugui.o(.text)
+    UG_WindowGetInnerHeight                  0x00001fa3   Thumb Code    52  ugui.o(.text)
+    UG_WindowGetOuterHeight                  0x00001fd7   Thumb Code    30  ugui.o(.text)
+    _UG_ButtonUpdate                         0x00001ff5   Thumb Code   500  ugui.o(.text)
+    UG_ButtonCreate                          0x000021e9   Thumb Code   138  ugui.o(.text)
+    UG_ButtonDelete                          0x00002273   Thumb Code     8  ugui.o(.text)
+    UG_ButtonShow                            0x0000227b   Thumb Code    34  ugui.o(.text)
+    UG_ButtonHide                            0x0000229d   Thumb Code    50  ugui.o(.text)
+    UG_ButtonSetForeColor                    0x000022cf   Thumb Code    36  ugui.o(.text)
+    UG_ButtonSetBackColor                    0x000022f3   Thumb Code    36  ugui.o(.text)
+    UG_ButtonSetAlternateForeColor           0x00002317   Thumb Code    36  ugui.o(.text)
+    UG_ButtonSetAlternateBackColor           0x0000233b   Thumb Code    36  ugui.o(.text)
+    UG_ButtonSetText                         0x0000235f   Thumb Code    36  ugui.o(.text)
+    UG_ButtonSetFont                         0x00002383   Thumb Code    36  ugui.o(.text)
+    UG_ButtonSetStyle                        0x000023a7   Thumb Code   128  ugui.o(.text)
+    UG_ButtonSetHSpace                       0x00002427   Thumb Code    36  ugui.o(.text)
+    UG_ButtonSetVSpace                       0x0000244b   Thumb Code    36  ugui.o(.text)
+    UG_ButtonSetAlignment                    0x0000246f   Thumb Code    36  ugui.o(.text)
+    UG_ButtonGetForeColor                    0x00002493   Thumb Code    22  ugui.o(.text)
+    UG_ButtonGetBackColor                    0x000024a9   Thumb Code    22  ugui.o(.text)
+    UG_ButtonGetAlternateForeColor           0x000024bf   Thumb Code    22  ugui.o(.text)
+    UG_ButtonGetAlternateBackColor           0x000024d5   Thumb Code    22  ugui.o(.text)
+    UG_ButtonGetText                         0x000024eb   Thumb Code    22  ugui.o(.text)
+    UG_ButtonGetFont                         0x00002501   Thumb Code    22  ugui.o(.text)
+    UG_ButtonGetStyle                        0x00002517   Thumb Code    22  ugui.o(.text)
+    UG_ButtonGetHSpace                       0x0000252d   Thumb Code    24  ugui.o(.text)
+    UG_ButtonGetVSpace                       0x00002545   Thumb Code    36  ugui.o(.text)
+    UG_ButtonGetAlignment                    0x00002569   Thumb Code    22  ugui.o(.text)
+    _UG_CheckboxUpdate                       0x0000257f   Thumb Code  1018  ugui.o(.text)
+    UG_CheckboxCreate                        0x00002979   Thumb Code   142  ugui.o(.text)
+    UG_CheckboxDelete                        0x00002a07   Thumb Code     8  ugui.o(.text)
+    UG_CheckboxShow                          0x00002a0f   Thumb Code    34  ugui.o(.text)
+    UG_CheckboxHide                          0x00002a31   Thumb Code    50  ugui.o(.text)
+    UG_CheckboxSetCheched                    0x00002a63   Thumb Code    36  ugui.o(.text)
+    UG_CheckboxSetForeColor                  0x00002a87   Thumb Code    36  ugui.o(.text)
+    UG_CheckboxSetBackColor                  0x00002aab   Thumb Code    36  ugui.o(.text)
+    UG_CheckboxSetAlternateForeColor         0x00002acf   Thumb Code    36  ugui.o(.text)
+    UG_CheckboxSetAlternateBackColor         0x00002af3   Thumb Code    36  ugui.o(.text)
+    UG_CheckboxSetText                       0x00002b17   Thumb Code    36  ugui.o(.text)
+    UG_CheckboxSetFont                       0x00002b3b   Thumb Code    36  ugui.o(.text)
+    UG_CheckboxSetStyle                      0x00002b5f   Thumb Code   128  ugui.o(.text)
+    UG_CheckboxSetHSpace                     0x00002bdf   Thumb Code    36  ugui.o(.text)
+    UG_CheckboxSetVSpace                     0x00002c03   Thumb Code    36  ugui.o(.text)
+    UG_CheckboxSetAlignment                  0x00002c27   Thumb Code    36  ugui.o(.text)
+    UG_CheckboxGetChecked                    0x00002c4b   Thumb Code    22  ugui.o(.text)
+    UG_CheckboxGetForeColor                  0x00002c61   Thumb Code    22  ugui.o(.text)
+    UG_CheckboxGetBackColor                  0x00002c77   Thumb Code    22  ugui.o(.text)
+    UG_CheckboxGetAlternateForeColor         0x00002c8d   Thumb Code    22  ugui.o(.text)
+    UG_CheckboxGetAlternateBackColor         0x00002ca3   Thumb Code    22  ugui.o(.text)
+    UG_CheckboxGetText                       0x00002cb9   Thumb Code    22  ugui.o(.text)
+    UG_CheckboxGetFont                       0x00002ccf   Thumb Code    30  ugui.o(.text)
+    UG_CheckboxGetStyle                      0x00002ced   Thumb Code    22  ugui.o(.text)
+    UG_CheckboxGetHSpace                     0x00002d03   Thumb Code    24  ugui.o(.text)
+    UG_CheckboxGetVSpace                     0x00002d1b   Thumb Code    24  ugui.o(.text)
+    UG_CheckboxGetAlignment                  0x00002d33   Thumb Code    22  ugui.o(.text)
+    _UG_TextboxUpdate                        0x00002d49   Thumb Code   244  ugui.o(.text)
+    UG_TextboxCreate                         0x00002e3d   Thumb Code   128  ugui.o(.text)
+    UG_TextboxDelete                         0x00002ebd   Thumb Code     8  ugui.o(.text)
+    UG_TextboxShow                           0x00002ec5   Thumb Code    34  ugui.o(.text)
+    UG_TextboxHide                           0x00002ee7   Thumb Code    34  ugui.o(.text)
+    UG_TextboxSetForeColor                   0x00002f09   Thumb Code    36  ugui.o(.text)
+    UG_TextboxSetBackColor                   0x00002f2d   Thumb Code    36  ugui.o(.text)
+    UG_TextboxSetText                        0x00002f51   Thumb Code    36  ugui.o(.text)
+    UG_TextboxSetFont                        0x00002f75   Thumb Code    36  ugui.o(.text)
+    UG_TextboxSetHSpace                      0x00002f99   Thumb Code    36  ugui.o(.text)
+    UG_TextboxSetVSpace                      0x00002fbd   Thumb Code    36  ugui.o(.text)
+    UG_TextboxSetAlignment                   0x00002fe1   Thumb Code    36  ugui.o(.text)
+    UG_TextboxGetForeColor                   0x00003005   Thumb Code    22  ugui.o(.text)
+    UG_TextboxGetBackColor                   0x0000301b   Thumb Code    22  ugui.o(.text)
+    UG_TextboxGetText                        0x00003031   Thumb Code    22  ugui.o(.text)
+    UG_TextboxGetFont                        0x00003047   Thumb Code    22  ugui.o(.text)
+    UG_TextboxGetHSpace                      0x0000305d   Thumb Code    24  ugui.o(.text)
+    UG_TextboxGetVSpace                      0x00003075   Thumb Code    24  ugui.o(.text)
+    UG_TextboxGetAlignment                   0x0000308d   Thumb Code    22  ugui.o(.text)
+    _UG_ImageUpdate                          0x000030a3   Thumb Code   162  ugui.o(.text)
+    UG_ImageCreate                           0x00003145   Thumb Code    94  ugui.o(.text)
+    UG_ImageDelete                           0x000031a3   Thumb Code     8  ugui.o(.text)
+    UG_ImageShow                             0x000031ab   Thumb Code    34  ugui.o(.text)
+    UG_ImageHide                             0x000031cd   Thumb Code    34  ugui.o(.text)
+    UG_ImageSetBMP                           0x000031ef   Thumb Code    40  ugui.o(.text)
+    GPIO_Init                                0x0000321d   Thumb Code   486  swm320_gpio.o(.text)
+    GPIO_SetBit                              0x00003403   Thumb Code    12  swm320_gpio.o(.text)
+    GPIO_ClrBit                              0x0000340f   Thumb Code    12  swm320_gpio.o(.text)
+    GPIO_InvBit                              0x0000341b   Thumb Code    12  swm320_gpio.o(.text)
+    GPIO_GetBit                              0x00003427   Thumb Code    10  swm320_gpio.o(.text)
+    GPIO_SetBits                             0x00003431   Thumb Code    20  swm320_gpio.o(.text)
+    GPIO_ClrBits                             0x00003445   Thumb Code    20  swm320_gpio.o(.text)
+    GPIO_InvBits                             0x00003459   Thumb Code    20  swm320_gpio.o(.text)
+    GPIO_GetBits                             0x0000346d   Thumb Code    18  swm320_gpio.o(.text)
+    GPIO_AtomicSetBit                        0x0000347f   Thumb Code    16  swm320_gpio.o(.text)
+    GPIO_AtomicClrBit                        0x0000348f   Thumb Code    16  swm320_gpio.o(.text)
+    GPIO_AtomicInvBit                        0x0000349f   Thumb Code    20  swm320_gpio.o(.text)
+    GPIO_AtomicSetBits                       0x000034b3   Thumb Code    24  swm320_gpio.o(.text)
+    GPIO_AtomicClrBits                       0x000034cb   Thumb Code    24  swm320_gpio.o(.text)
+    GPIO_AtomicInvBits                       0x000034e3   Thumb Code    24  swm320_gpio.o(.text)
+    UART_Close                               0x00003519   Thumb Code    10  swm320_uart.o(.text)
+    UART_Init                                0x00003523   Thumb Code   374  swm320_uart.o(.text)
+    UART_Open                                0x00003699   Thumb Code    10  swm320_uart.o(.text)
+    UART_WriteByte                           0x000036a3   Thumb Code     4  swm320_uart.o(.text)
+    UART_ReadByte                            0x000036a7   Thumb Code    20  swm320_uart.o(.text)
+    UART_IsTXBusy                            0x000036bb   Thumb Code    10  swm320_uart.o(.text)
+    UART_IsRXFIFOEmpty                       0x000036c5   Thumb Code    10  swm320_uart.o(.text)
+    UART_IsTXFIFOFull                        0x000036cf   Thumb Code     8  swm320_uart.o(.text)
+    UART_SetBaudrate                         0x000036d7   Thumb Code    28  swm320_uart.o(.text)
+    UART_GetBaudrate                         0x000036f3   Thumb Code    20  swm320_uart.o(.text)
+    UART_CTSConfig                           0x00003707   Thumb Code    20  swm320_uart.o(.text)
+    UART_CTSLineState                        0x0000371b   Thumb Code     8  swm320_uart.o(.text)
+    UART_RTSConfig                           0x00003723   Thumb Code    28  swm320_uart.o(.text)
+    UART_RTSLineState                        0x0000373f   Thumb Code     8  swm320_uart.o(.text)
+    UART_LINConfig                           0x00003747   Thumb Code    20  swm320_uart.o(.text)
+    UART_LINGenerate                         0x0000375b   Thumb Code    10  swm320_uart.o(.text)
+    UART_LINIsDetected                       0x00003765   Thumb Code     8  swm320_uart.o(.text)
+    UART_LINIsGenerated                      0x0000376d   Thumb Code     8  swm320_uart.o(.text)
+    UART_ABRStart                            0x00003775   Thumb Code    82  swm320_uart.o(.text)
+    UART_ABRIsDone                           0x000037c7   Thumb Code    24  swm320_uart.o(.text)
+    UART_INTRXThresholdEn                    0x000037df   Thumb Code    10  swm320_uart.o(.text)
+    UART_INTRXThresholdDis                   0x000037e9   Thumb Code    10  swm320_uart.o(.text)
+    UART_INTRXThresholdStat                  0x000037f3   Thumb Code     8  swm320_uart.o(.text)
+    UART_INTTXThresholdEn                    0x000037fb   Thumb Code    10  swm320_uart.o(.text)
+    UART_INTTXThresholdDis                   0x00003805   Thumb Code    10  swm320_uart.o(.text)
+    UART_INTTXThresholdStat                  0x0000380f   Thumb Code     8  swm320_uart.o(.text)
+    UART_INTTimeoutEn                        0x00003817   Thumb Code    10  swm320_uart.o(.text)
+    UART_INTTimeoutDis                       0x00003821   Thumb Code    10  swm320_uart.o(.text)
+    UART_INTTimeoutStat                      0x0000382b   Thumb Code     8  swm320_uart.o(.text)
+    UART_INTTXDoneEn                         0x00003833   Thumb Code    10  swm320_uart.o(.text)
+    UART_INTTXDoneDis                        0x0000383d   Thumb Code    10  swm320_uart.o(.text)
+    UART_INTTXDoneStat                       0x00003847   Thumb Code     8  swm320_uart.o(.text)
+    PORT_Init                                0x00003885   Thumb Code  1058  swm320_port.o(.text)
+    LCD_INTDis                               0x00003cb1   Thumb Code     6  swm320_lcd.o(.text)
+    LCD_INTEn                                0x00003cb7   Thumb Code     6  swm320_lcd.o(.text)
+    LCD_Init                                 0x00003cbd   Thumb Code   228  swm320_lcd.o(.text)
+    LCD_Start                                0x00003da1   Thumb Code    10  swm320_lcd.o(.text)
+    LCD_IsBusy                               0x00003dab   Thumb Code     8  swm320_lcd.o(.text)
+    LCD_INTClr                               0x00003db3   Thumb Code     6  swm320_lcd.o(.text)
+    LCD_INTStat                              0x00003db9   Thumb Code     8  swm320_lcd.o(.text)
+    SDRAM_Init                               0x00003dc9   Thumb Code   112  swm320_sdram.o(.text)
+    SystemCoreClockUpdate                    0x00003e39   Thumb Code    88  system_swm320.o(.text)
+    PLLInit                                  0x00003e91   Thumb Code    58  system_swm320.o(.text)
+    switchCLK_PLL                            0x00003ecb   Thumb Code    52  system_swm320.o(.text)
+    switchCLK_XTAL                           0x00003eff   Thumb Code    42  system_swm320.o(.text)
+    switchCLK_32KHz                          0x00003f29   Thumb Code    50  system_swm320.o(.text)
+    switchCLK_40MHz                          0x00003f5b   Thumb Code    42  system_swm320.o(.text)
+    switchCLK_20MHz                          0x00003f85   Thumb Code    40  system_swm320.o(.text)
+    SystemInit                               0x00003fad   Thumb Code    36  system_swm320.o(.text)
+    Reset_Handler                            0x00003ff1   Thumb Code     4  startup_swm320.o(.text)
+    NMI_Handler                              0x00003ff5   Thumb Code     2  startup_swm320.o(.text)
+    HardFault_Handler                        0x00003ff7   Thumb Code     2  startup_swm320.o(.text)
+    MemManage_Handler                        0x00003ff9   Thumb Code     2  startup_swm320.o(.text)
+    BusFault_Handler                         0x00003ffb   Thumb Code     2  startup_swm320.o(.text)
+    UsageFault_Handler                       0x00003ffd   Thumb Code     2  startup_swm320.o(.text)
+    SVC_Handler                              0x00003fff   Thumb Code     2  startup_swm320.o(.text)
+    DebugMon_Handler                         0x00004001   Thumb Code     2  startup_swm320.o(.text)
+    PendSV_Handler                           0x00004003   Thumb Code     2  startup_swm320.o(.text)
+    SysTick_Handler                          0x00004005   Thumb Code     2  startup_swm320.o(.text)
+    GPIOA0_Handler                           0x00004007   Thumb Code     2  startup_swm320.o(.text)
+    GPIOA1_Handler                           0x00004009   Thumb Code     2  startup_swm320.o(.text)
+    GPIOA2_Handler                           0x0000400b   Thumb Code     2  startup_swm320.o(.text)
+    GPIOA3_Handler                           0x0000400d   Thumb Code     2  startup_swm320.o(.text)
+    GPIOA4_Handler                           0x0000400f   Thumb Code     2  startup_swm320.o(.text)
+    GPIOA5_Handler                           0x00004011   Thumb Code     2  startup_swm320.o(.text)
+    GPIOA6_Handler                           0x00004013   Thumb Code     2  startup_swm320.o(.text)
+    GPIOA7_Handler                           0x00004015   Thumb Code     2  startup_swm320.o(.text)
+    GPIOB0_Handler                           0x00004017   Thumb Code     2  startup_swm320.o(.text)
+    GPIOB1_Handler                           0x00004019   Thumb Code     2  startup_swm320.o(.text)
+    GPIOB2_Handler                           0x0000401b   Thumb Code     2  startup_swm320.o(.text)
+    GPIOB3_Handler                           0x0000401d   Thumb Code     2  startup_swm320.o(.text)
+    GPIOB4_Handler                           0x0000401f   Thumb Code     2  startup_swm320.o(.text)
+    GPIOB5_Handler                           0x00004021   Thumb Code     2  startup_swm320.o(.text)
+    GPIOB6_Handler                           0x00004023   Thumb Code     2  startup_swm320.o(.text)
+    GPIOB7_Handler                           0x00004025   Thumb Code     2  startup_swm320.o(.text)
+    GPIOC0_Handler                           0x00004027   Thumb Code     2  startup_swm320.o(.text)
+    GPIOC1_Handler                           0x00004029   Thumb Code     2  startup_swm320.o(.text)
+    GPIOC2_Handler                           0x0000402b   Thumb Code     2  startup_swm320.o(.text)
+    GPIOC3_Handler                           0x0000402d   Thumb Code     2  startup_swm320.o(.text)
+    GPIOC4_Handler                           0x0000402f   Thumb Code     2  startup_swm320.o(.text)
+    GPIOC5_Handler                           0x00004031   Thumb Code     2  startup_swm320.o(.text)
+    GPIOC6_Handler                           0x00004033   Thumb Code     2  startup_swm320.o(.text)
+    GPIOC7_Handler                           0x00004035   Thumb Code     2  startup_swm320.o(.text)
+    GPIOM0_Handler                           0x00004037   Thumb Code     2  startup_swm320.o(.text)
+    GPIOM1_Handler                           0x00004039   Thumb Code     2  startup_swm320.o(.text)
+    GPIOM2_Handler                           0x0000403b   Thumb Code     2  startup_swm320.o(.text)
+    GPIOM3_Handler                           0x0000403d   Thumb Code     2  startup_swm320.o(.text)
+    GPIOM4_Handler                           0x0000403f   Thumb Code     2  startup_swm320.o(.text)
+    GPIOM5_Handler                           0x00004041   Thumb Code     2  startup_swm320.o(.text)
+    GPIOM6_Handler                           0x00004043   Thumb Code     2  startup_swm320.o(.text)
+    GPIOM7_Handler                           0x00004045   Thumb Code     2  startup_swm320.o(.text)
+    DMA_Handler                              0x00004047   Thumb Code     2  startup_swm320.o(.text)
+    NORFLC_Handler                           0x0000404b   Thumb Code     2  startup_swm320.o(.text)
+    CAN_Handler                              0x0000404d   Thumb Code     2  startup_swm320.o(.text)
+    PULSE_Handler                            0x0000404f   Thumb Code     2  startup_swm320.o(.text)
+    WDT_Handler                              0x00004051   Thumb Code     2  startup_swm320.o(.text)
+    PWM_Handler                              0x00004053   Thumb Code     2  startup_swm320.o(.text)
+    UART0_Handler                            0x00004055   Thumb Code     2  startup_swm320.o(.text)
+    UART1_Handler                            0x00004057   Thumb Code     2  startup_swm320.o(.text)
+    UART2_Handler                            0x00004059   Thumb Code     2  startup_swm320.o(.text)
+    UART3_Handler                            0x0000405b   Thumb Code     2  startup_swm320.o(.text)
+    I2C0_Handler                             0x0000405d   Thumb Code     2  startup_swm320.o(.text)
+    I2C1_Handler                             0x0000405f   Thumb Code     2  startup_swm320.o(.text)
+    SPI0_Handler                             0x00004061   Thumb Code     2  startup_swm320.o(.text)
+    ADC0_Handler                             0x00004063   Thumb Code     2  startup_swm320.o(.text)
+    RTC_Handler                              0x00004065   Thumb Code     2  startup_swm320.o(.text)
+    BOD_Handler                              0x00004067   Thumb Code     2  startup_swm320.o(.text)
+    SDIO_Handler                             0x00004069   Thumb Code     2  startup_swm320.o(.text)
+    GPIOA_Handler                            0x0000406b   Thumb Code     2  startup_swm320.o(.text)
+    GPIOB_Handler                            0x0000406d   Thumb Code     2  startup_swm320.o(.text)
+    GPIOC_Handler                            0x0000406f   Thumb Code     2  startup_swm320.o(.text)
+    GPIOM_Handler                            0x00004071   Thumb Code     2  startup_swm320.o(.text)
+    GPION_Handler                            0x00004073   Thumb Code     2  startup_swm320.o(.text)
+    GPIOP_Handler                            0x00004075   Thumb Code     2  startup_swm320.o(.text)
+    ADC1_Handler                             0x00004077   Thumb Code     2  startup_swm320.o(.text)
+    FPU_Handler                              0x00004079   Thumb Code     2  startup_swm320.o(.text)
+    SPI1_Handler                             0x0000407b   Thumb Code     2  startup_swm320.o(.text)
+    TIMR0_Handler                            0x0000407d   Thumb Code     2  startup_swm320.o(.text)
+    TIMR1_Handler                            0x0000407f   Thumb Code     2  startup_swm320.o(.text)
+    TIMR2_Handler                            0x00004081   Thumb Code     2  startup_swm320.o(.text)
+    TIMR3_Handler                            0x00004083   Thumb Code     2  startup_swm320.o(.text)
+    TIMR4_Handler                            0x00004085   Thumb Code     2  startup_swm320.o(.text)
+    TIMR5_Handler                            0x00004087   Thumb Code     2  startup_swm320.o(.text)
+    __aeabi_memcpy                           0x0000408d   Thumb Code    36  memcpya.o(.text)
+    __aeabi_memcpy4                          0x0000408d   Thumb Code     0  memcpya.o(.text)
+    __aeabi_memcpy8                          0x0000408d   Thumb Code     0  memcpya.o(.text)
+    __scatterload                            0x000040b1   Thumb Code    28  init.o(.text)
+    __scatterload_rt2                        0x000040b1   Thumb Code     0  init.o(.text)
+    __scatterload_copy                       0x000040d5   Thumb Code    14  handlers.o(i.__scatterload_copy)
+    __scatterload_null                       0x000040e3   Thumb Code     2  handlers.o(i.__scatterload_null)
+    __scatterload_zeroinit                   0x000040e5   Thumb Code    14  handlers.o(i.__scatterload_zeroinit)
+    font_12x20                               0x000040fa   Data       10240  ugui.o(.constdata)
+    FONT_12X20                               0x000068fc   Data          20  ugui.o(.constdata)
+    pal_window                               0x00006910   Data          24  ugui.o(.constdata)
+    pal_button_pressed                       0x00006928   Data          24  ugui.o(.constdata)
+    pal_button_released                      0x00006940   Data          24  ugui.o(.constdata)
+    pal_checkbox_pressed                     0x00006958   Data          24  ugui.o(.constdata)
+    pal_checkbox_released                    0x00006970   Data          24  ugui.o(.constdata)
+    Region$$Table$$Base                      0x00006988   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x000069a8   Number         0  anon$$obj.o(Region$$Table)
+    SystemCoreClock                          0x2000000c   Data           4  system_swm320.o(.data)
+    gui                                      0x20000010   Data         100  main.o(.bss)
+    __initial_sp                             0x20000478   Data           0  startup_swm320.o(STACK)
+    LCD_Buffer                               0x70000000   Data       261120  main.o(.ARM.__AT_0x70000000)
+
+
+
+==============================================================================
+
+Memory Map of the image
+
+  Image Entry point : 0x00000149
+
+  Load Region LR_IROM1 (Base: 0x00000000, Size: 0x000069b8, Max: 0x00080000, ABSOLUTE)
+
+    Execution Region ER_IROM1 (Base: 0x00000000, Size: 0x000069a8, Max: 0x00080000, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x00000000   0x00000148   Data   RO          666    RESET               startup_swm320.o
+    0x00000148   0x00000000   Code   RO          671  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
+    0x00000148   0x00000004   Code   RO          678    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
+    0x0000014c   0x00000004   Code   RO          681    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
+    0x00000150   0x00000000   Code   RO          683    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
+    0x00000150   0x00000000   Code   RO          685    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
+    0x00000150   0x00000008   Code   RO          686    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
+    0x00000158   0x00000000   Code   RO          688    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
+    0x00000158   0x00000000   Code   RO          690    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
+    0x00000158   0x00000004   Code   RO          679    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
+    0x0000015c   0x00000348   Code   RO            4    .text               main.o
+    0x000004a4   0x00002d78   Code   RO          129    .text               ugui.o
+    0x0000321c   0x000002fc   Code   RO          208    .text               swm320_gpio.o
+    0x00003518   0x0000036c   Code   RO          308    .text               swm320_uart.o
+    0x00003884   0x0000042c   Code   RO          410    .text               swm320_port.o
+    0x00003cb0   0x00000118   Code   RO          506    .text               swm320_lcd.o
+    0x00003dc8   0x00000070   Code   RO          612    .text               swm320_sdram.o
+    0x00003e38   0x000001b8   Code   RO          636    .text               system_swm320.o
+    0x00003ff0   0x0000009c   Code   RO          667    .text               startup_swm320.o
+    0x0000408c   0x00000024   Code   RO          674    .text               mc_w.l(memcpya.o)
+    0x000040b0   0x00000024   Code   RO          692    .text               mc_w.l(init.o)
+    0x000040d4   0x0000000e   Code   RO          696    i.__scatterload_copy  mc_w.l(handlers.o)
+    0x000040e2   0x00000002   Code   RO          697    i.__scatterload_null  mc_w.l(handlers.o)
+    0x000040e4   0x0000000e   Code   RO          698    i.__scatterload_zeroinit  mc_w.l(handlers.o)
+    0x000040f2   0x00000002   PAD
+    0x000040f4   0x00000006   Data   RO            7    .constdata          main.o
+    0x000040fa   0x00002800   Data   RO          130    .constdata          ugui.o
+    0x000068fa   0x00000002   PAD
+    0x000068fc   0x00000014   Data   RO          131    .constdata          ugui.o
+    0x00006910   0x00000078   Data   RO          132    .constdata          ugui.o
+    0x00006988   0x00000020   Data   RO          694    Region$$Table       anon$$obj.o
+
+
+    Execution Region RW_IRAM1 (Base: 0x20000000, Size: 0x00000478, Max: 0x00020000, ABSOLUTE)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x20000000   0x0000000c   Data   RW          133    .data               ugui.o
+    0x2000000c   0x00000004   Data   RW          637    .data               system_swm320.o
+    0x20000010   0x00000064   Zero   RW            6    .bss                main.o
+    0x20000074   0x00000004   PAD
+    0x20000078   0x00000400   Zero   RW          664    STACK               startup_swm320.o
+
+
+
+  Load Region LR$$.ARM.__AT_0x70000000 (Base: 0x70000000, Size: 0x00000000, Max: 0x0003fc00, ABSOLUTE)
+
+    Execution Region ER$$.ARM.__AT_0x70000000 (Base: 0x70000000, Size: 0x0003fc00, Max: 0x0003fc00, ABSOLUTE, UNINIT)
+
+    Base Addr    Size         Type   Attr      Idx    E Section Name        Object
+
+    0x70000000   0x0003fc00   Zero   RW            5    .ARM.__AT_0x70000000  main.o
+
+
+==============================================================================
+
+Image component sizes
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
+
+       840         74          6          0     261220     137130   main.o
+       156          4        328          0       1024       3444   startup_swm320.o
+         0          0          0          0          0      23963   swm320_adc.o
+       764         30          0          0          0       4827   swm320_gpio.o
+       280          8          0          0          0       2308   swm320_lcd.o
+      1068         16          0          0          0       1568   swm320_port.o
+       112          0          0          0          0       1061   swm320_sdram.o
+       876         10          0          0          0       7494   swm320_uart.o
+       440         32          0          4          0       2218   system_swm320.o
+     11640         52      10380         12          0      69825   ugui.o
+
+    ----------------------------------------------------------------------
+     16176        226      10748         16     262248     253838   Object Totals
+         0          0         32          0          0          0   (incl. Generated)
+         0          0          2          0          4          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Member Name
+
+         0          0          0          0          0          0   entry.o
+         0          0          0          0          0          0   entry10a.o
+         0          0          0          0          0          0   entry11a.o
+         8          4          0          0          0          0   entry2.o
+         4          0          0          0          0          0   entry5.o
+         0          0          0          0          0          0   entry7b.o
+         0          0          0          0          0          0   entry8b.o
+         8          4          0          0          0          0   entry9a.o
+        30          0          0          0          0          0   handlers.o
+        36          8          0          0          0         68   init.o
+        36          0          0          0          0         68   memcpya.o
+
+    ----------------------------------------------------------------------
+       124         16          0          0          0        136   Library Totals
+         2          0          0          0          0          0   (incl. Padding)
+
+    ----------------------------------------------------------------------
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Library Name
+
+       122         16          0          0          0        136   mc_w.l
+
+    ----------------------------------------------------------------------
+       124         16          0          0          0        136   Library Totals
+
+    ----------------------------------------------------------------------
+
+==============================================================================
+
+
+      Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
+
+     16300        242      10748         16     262248     253294   Grand Totals
+     16300        242      10748         16     262248     253294   ELF Image Totals
+     16300        242      10748         16          0          0   ROM Totals
+
+==============================================================================
+
+    Total RO  Size (Code + RO Data)                27048 (  26.41kB)
+    Total RW  Size (RW Data + ZI Data)            262264 ( 256.12kB)
+    Total ROM Size (Code + RO Data + RW Data)      27064 (  26.43kB)
+
+==============================================================================
+
