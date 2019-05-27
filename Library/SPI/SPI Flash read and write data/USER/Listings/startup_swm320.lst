@@ -769,12 +769,12 @@ ARM Macro Assembler    Page 12
   558 00000098                 END
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4 --apcs=interw
-ork --depend=.\objects\startup_swm320.d -o.\objects\startup_swm320.o -I"C:\User
-s\hasee\Desktop\14.SPI总线\2.SPI Flash读写数据\USER\RTE" -IE:\MDK5\Synwit\SWM32
-_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport -IE:\MDK5\ARM\CMSIS\Include -IE:\MDK5
-\Synwit\SWM32_DFP\1.8.5\CSL\SWM3200\CMSIS\DeviceSupport --predefine="__MICROLIB
- SETA 1" --predefine="__UVISION_VERSION SETA 514" --list=.\listings\startup_swm
-320.lst ..\CMSIS\DeviceSupport\startup_SWM320.s
+ork --depend=.\objects\startup_swm320.d -o.\objects\startup_swm320.o -I"I:\git\
+PineconePi_ONE\Library\SPI\SPI Flash read and write data\USER\RTE" -IE:\MDK5\Sy
+nwit\SWM32_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport -IE:\MDK5\ARM\CMSIS\Include
+ -IE:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM3200\CMSIS\DeviceSupport --predefine="
+__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 514" --list=.\listings\s
+tartup_swm320.lst ..\CMSIS\DeviceSupport\startup_SWM320.s
 
 
 

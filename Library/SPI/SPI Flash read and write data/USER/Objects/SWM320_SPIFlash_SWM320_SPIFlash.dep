@@ -1,5 +1,5 @@
 Dependencies for Project 'SWM320_SPIFlash', Target 'SWM320_SPIFlash': (DO NOT MODIFY !)
-F (..\CMSIS\DeviceSupport\system_SWM320.c)(0x5B66F9BD)(--c99 -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\BSP_Driv -I..\CMSIS\CoreSupport -I..\CMSIS\DeviceSupport -I..\SWM320_StdPeriph_Driver-I "C:\Users\hasee\Desktop\14.SPI总线\2.SPI Flash读写数据\USER\RTE"-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM3200\CMSIS\DeviceSupport-D__UVISION_VERSION="514"-o .\objects\system_swm320.o --omf_browse .\objects\system_swm320.crf --depend .\objects\system_swm320.d)
+F (..\CMSIS\DeviceSupport\system_SWM320.c)(0x5B66F9BD)(--c99 -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\BSP_Driv -I..\CMSIS\CoreSupport -I..\CMSIS\DeviceSupport -I..\SWM320_StdPeriph_Driver-I "I:\git\PineconePi_ONE\Library\SPI\SPI Flash read and write data\USER\RTE"-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM3200\CMSIS\DeviceSupport-D__UVISION_VERSION="514"-o .\objects\system_swm320.o --omf_browse .\objects\system_swm320.crf --depend .\objects\system_swm320.d)
 I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
 I (..\CMSIS\DeviceSupport\SWM320.h)(0x5AD81296)
 I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
@@ -27,8 +27,8 @@ I (..\SWM320_StdPeriph_Driver\SWM320_sdram.h)(0x5ABC53CC)
 I (..\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CB)
 I (..\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x5ABC53CB)
 I (..\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-F (..\CMSIS\DeviceSupport\startup_SWM320.s)(0x5ACC8D34)(--cpu Cortex-M4 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I "C:\Users\hasee\Desktop\14.SPI总线\2.SPI Flash读写数据\USER\RTE"-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM3200\CMSIS\DeviceSupport--pd "__UVISION_VERSION SETA 514"--list .\listings\startup_swm320.lst --xref -o .\objects\startup_swm320.o --depend .\objects\startup_swm320.d)
-F (.\main.c)(0x5CE50C72)(--c99 -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\BSP_Driv -I..\CMSIS\CoreSupport -I..\CMSIS\DeviceSupport -I..\SWM320_StdPeriph_Driver-I "C:\Users\hasee\Desktop\14.SPI总线\2.SPI Flash读写数据\USER\RTE"-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM3200\CMSIS\DeviceSupport-D__UVISION_VERSION="514"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (..\CMSIS\DeviceSupport\startup_SWM320.s)(0x5ACC8D34)(--cpu Cortex-M4 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I "I:\git\PineconePi_ONE\Library\SPI\SPI Flash read and write data\USER\RTE"-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM3200\CMSIS\DeviceSupport--pd "__UVISION_VERSION SETA 514"--list .\listings\startup_swm320.lst --xref -o .\objects\startup_swm320.o --depend .\objects\startup_swm320.d)
+F (.\main.c)(0x5CE7B12C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\BSP_Driv -I..\CMSIS\CoreSupport -I..\CMSIS\DeviceSupport -I..\SWM320_StdPeriph_Driver-I "I:\git\PineconePi_ONE\Library\SPI\SPI Flash read and write data\USER\RTE"-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM3200\CMSIS\DeviceSupport-D__UVISION_VERSION="514"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (..\CMSIS\DeviceSupport\SWM320.h)(0x5AD81296)
 I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
 I (..\CMSIS\CoreSupport\core_cm4.h)(0x542135DE)
@@ -59,7 +59,7 @@ I (..\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
 I (..\BSP_Driv\bsp_systick.h)(0x5AF7FE1D)
 I (..\BSP_Driv\bsp_uart.h)(0x5AF7FE1D)
 I (..\BSP_Driv\bsp_SPIFlash.h)(0x5AFE9D3D)
-F (..\SWM320_StdPeriph_Driver\SWM320_gpio.c)(0x5ABC53CB)(--c99 -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\BSP_Driv -I..\CMSIS\CoreSupport -I..\CMSIS\DeviceSupport -I..\SWM320_StdPeriph_Driver-I "C:\Users\hasee\Desktop\14.SPI总线\2.SPI Flash读写数据\USER\RTE"-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM3200\CMSIS\DeviceSupport-D__UVISION_VERSION="514"-o .\objects\swm320_gpio.o --omf_browse .\objects\swm320_gpio.crf --depend .\objects\swm320_gpio.d)
+F (..\SWM320_StdPeriph_Driver\SWM320_gpio.c)(0x5ABC53CB)(--c99 -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\BSP_Driv -I..\CMSIS\CoreSupport -I..\CMSIS\DeviceSupport -I..\SWM320_StdPeriph_Driver-I "I:\git\PineconePi_ONE\Library\SPI\SPI Flash read and write data\USER\RTE"-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM3200\CMSIS\DeviceSupport-D__UVISION_VERSION="514"-o .\objects\swm320_gpio.o --omf_browse .\objects\swm320_gpio.crf --depend .\objects\swm320_gpio.d)
 I (..\CMSIS\DeviceSupport\SWM320.h)(0x5AD81296)
 I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
 I (..\CMSIS\CoreSupport\core_cm4.h)(0x542135DE)
@@ -87,7 +87,7 @@ I (..\SWM320_StdPeriph_Driver\SWM320_sdram.h)(0x5ABC53CC)
 I (..\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CB)
 I (..\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x5ABC53CB)
 I (..\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-F (..\SWM320_StdPeriph_Driver\SWM320_port.c)(0x5ABC53CB)(--c99 -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\BSP_Driv -I..\CMSIS\CoreSupport -I..\CMSIS\DeviceSupport -I..\SWM320_StdPeriph_Driver-I "C:\Users\hasee\Desktop\14.SPI总线\2.SPI Flash读写数据\USER\RTE"-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM3200\CMSIS\DeviceSupport-D__UVISION_VERSION="514"-o .\objects\swm320_port.o --omf_browse .\objects\swm320_port.crf --depend .\objects\swm320_port.d)
+F (..\SWM320_StdPeriph_Driver\SWM320_port.c)(0x5ABC53CB)(--c99 -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\BSP_Driv -I..\CMSIS\CoreSupport -I..\CMSIS\DeviceSupport -I..\SWM320_StdPeriph_Driver-I "I:\git\PineconePi_ONE\Library\SPI\SPI Flash read and write data\USER\RTE"-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM3200\CMSIS\DeviceSupport-D__UVISION_VERSION="514"-o .\objects\swm320_port.o --omf_browse .\objects\swm320_port.crf --depend .\objects\swm320_port.d)
 I (..\CMSIS\DeviceSupport\SWM320.h)(0x5AD81296)
 I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
 I (..\CMSIS\CoreSupport\core_cm4.h)(0x542135DE)
@@ -115,7 +115,7 @@ I (..\SWM320_StdPeriph_Driver\SWM320_sdram.h)(0x5ABC53CC)
 I (..\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CB)
 I (..\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x5ABC53CB)
 I (..\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-F (..\SWM320_StdPeriph_Driver\SWM320_spi.c)(0x5AD467BA)(--c99 -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\BSP_Driv -I..\CMSIS\CoreSupport -I..\CMSIS\DeviceSupport -I..\SWM320_StdPeriph_Driver-I "C:\Users\hasee\Desktop\14.SPI总线\2.SPI Flash读写数据\USER\RTE"-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM3200\CMSIS\DeviceSupport-D__UVISION_VERSION="514"-o .\objects\swm320_spi.o --omf_browse .\objects\swm320_spi.crf --depend .\objects\swm320_spi.d)
+F (..\SWM320_StdPeriph_Driver\SWM320_spi.c)(0x5AD467BA)(--c99 -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\BSP_Driv -I..\CMSIS\CoreSupport -I..\CMSIS\DeviceSupport -I..\SWM320_StdPeriph_Driver-I "I:\git\PineconePi_ONE\Library\SPI\SPI Flash read and write data\USER\RTE"-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM3200\CMSIS\DeviceSupport-D__UVISION_VERSION="514"-o .\objects\swm320_spi.o --omf_browse .\objects\swm320_spi.crf --depend .\objects\swm320_spi.d)
 I (..\CMSIS\DeviceSupport\SWM320.h)(0x5AD81296)
 I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
 I (..\CMSIS\CoreSupport\core_cm4.h)(0x542135DE)
@@ -143,7 +143,7 @@ I (..\SWM320_StdPeriph_Driver\SWM320_sdram.h)(0x5ABC53CC)
 I (..\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CB)
 I (..\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x5ABC53CB)
 I (..\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-F (..\SWM320_StdPeriph_Driver\SWM320_uart.c)(0x5AD812FD)(--c99 -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\BSP_Driv -I..\CMSIS\CoreSupport -I..\CMSIS\DeviceSupport -I..\SWM320_StdPeriph_Driver-I "C:\Users\hasee\Desktop\14.SPI总线\2.SPI Flash读写数据\USER\RTE"-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM3200\CMSIS\DeviceSupport-D__UVISION_VERSION="514"-o .\objects\swm320_uart.o --omf_browse .\objects\swm320_uart.crf --depend .\objects\swm320_uart.d)
+F (..\SWM320_StdPeriph_Driver\SWM320_uart.c)(0x5AD812FD)(--c99 -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\BSP_Driv -I..\CMSIS\CoreSupport -I..\CMSIS\DeviceSupport -I..\SWM320_StdPeriph_Driver-I "I:\git\PineconePi_ONE\Library\SPI\SPI Flash read and write data\USER\RTE"-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM3200\CMSIS\DeviceSupport-D__UVISION_VERSION="514"-o .\objects\swm320_uart.o --omf_browse .\objects\swm320_uart.crf --depend .\objects\swm320_uart.d)
 I (..\CMSIS\DeviceSupport\SWM320.h)(0x5AD81296)
 I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
 I (..\CMSIS\CoreSupport\core_cm4.h)(0x542135DE)
@@ -171,7 +171,7 @@ I (..\SWM320_StdPeriph_Driver\SWM320_sdram.h)(0x5ABC53CC)
 I (..\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CB)
 I (..\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x5ABC53CB)
 I (..\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-F (..\BSP_Driv\bsp_SysTick.c)(0x5A44EDC0)(--c99 -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\BSP_Driv -I..\CMSIS\CoreSupport -I..\CMSIS\DeviceSupport -I..\SWM320_StdPeriph_Driver-I "C:\Users\hasee\Desktop\14.SPI总线\2.SPI Flash读写数据\USER\RTE"-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM3200\CMSIS\DeviceSupport-D__UVISION_VERSION="514"-o .\objects\bsp_systick.o --omf_browse .\objects\bsp_systick.crf --depend .\objects\bsp_systick.d)
+F (..\BSP_Driv\bsp_SysTick.c)(0x5A44EDC0)(--c99 -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\BSP_Driv -I..\CMSIS\CoreSupport -I..\CMSIS\DeviceSupport -I..\SWM320_StdPeriph_Driver-I "I:\git\PineconePi_ONE\Library\SPI\SPI Flash read and write data\USER\RTE"-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM3200\CMSIS\DeviceSupport-D__UVISION_VERSION="514"-o .\objects\bsp_systick.o --omf_browse .\objects\bsp_systick.crf --depend .\objects\bsp_systick.d)
 I (..\BSP_Driv\bsp_SysTick.h)(0x5AF7FE1D)
 I (..\CMSIS\DeviceSupport\SWM320.h)(0x5AD81296)
 I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
@@ -200,7 +200,7 @@ I (..\SWM320_StdPeriph_Driver\SWM320_sdram.h)(0x5ABC53CC)
 I (..\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CB)
 I (..\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x5ABC53CB)
 I (..\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-F (..\BSP_Driv\bsp_UART.c)(0x5A44EF64)(--c99 -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\BSP_Driv -I..\CMSIS\CoreSupport -I..\CMSIS\DeviceSupport -I..\SWM320_StdPeriph_Driver-I "C:\Users\hasee\Desktop\14.SPI总线\2.SPI Flash读写数据\USER\RTE"-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM3200\CMSIS\DeviceSupport-D__UVISION_VERSION="514"-o .\objects\bsp_uart.o --omf_browse .\objects\bsp_uart.crf --depend .\objects\bsp_uart.d)
+F (..\BSP_Driv\bsp_UART.c)(0x5A44EF64)(--c99 -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\BSP_Driv -I..\CMSIS\CoreSupport -I..\CMSIS\DeviceSupport -I..\SWM320_StdPeriph_Driver-I "I:\git\PineconePi_ONE\Library\SPI\SPI Flash read and write data\USER\RTE"-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM3200\CMSIS\DeviceSupport-D__UVISION_VERSION="514"-o .\objects\bsp_uart.o --omf_browse .\objects\bsp_uart.crf --depend .\objects\bsp_uart.d)
 I (..\BSP_Driv\bsp_uart.h)(0x5AF7FE1D)
 I (..\CMSIS\DeviceSupport\SWM320.h)(0x5AD81296)
 I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
@@ -229,7 +229,7 @@ I (..\SWM320_StdPeriph_Driver\SWM320_sdram.h)(0x5ABC53CC)
 I (..\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CB)
 I (..\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x5ABC53CB)
 I (..\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
-F (..\BSP_Driv\bsp_SPIFlash.c)(0x5B28BC80)(--c99 -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\BSP_Driv -I..\CMSIS\CoreSupport -I..\CMSIS\DeviceSupport -I..\SWM320_StdPeriph_Driver-I "C:\Users\hasee\Desktop\14.SPI总线\2.SPI Flash读写数据\USER\RTE"-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM3200\CMSIS\DeviceSupport-D__UVISION_VERSION="514"-o .\objects\bsp_spiflash.o --omf_browse .\objects\bsp_spiflash.crf --depend .\objects\bsp_spiflash.d)
+F (..\BSP_Driv\bsp_SPIFlash.c)(0x5B28BC80)(--c99 -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\BSP_Driv -I..\CMSIS\CoreSupport -I..\CMSIS\DeviceSupport -I..\SWM320_StdPeriph_Driver-I "I:\git\PineconePi_ONE\Library\SPI\SPI Flash read and write data\USER\RTE"-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM3200\CMSIS\DeviceSupport-D__UVISION_VERSION="514"-o .\objects\bsp_spiflash.o --omf_browse .\objects\bsp_spiflash.crf --depend .\objects\bsp_spiflash.d)
 I (..\BSP_Driv\bsp_SPIFlash.h)(0x5AFE9D3D)
 I (..\CMSIS\DeviceSupport\SWM320.h)(0x5AD81296)
 I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)

@@ -879,19 +879,19 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-      1034        114          0          4          0       6066   bsp_spiflash.o
-       166         24          0          4          0      26964   bsp_systick.o
-       112         10          0          0          0       1097   bsp_uart.o
-       292        176          0         19         18       1433   main.o
-       156          4        328          0       1024       3372   startup_swm320.o
-       772         38          0          0          0       2368   swm320_gpio.o
-      1608         30          0          0          0       1224   swm320_port.o
-       314         14          0          0          0      27377   swm320_spi.o
-       484         14          0          0          0       4034   swm320_uart.o
-       548         48          0          8          0      75873   system_swm320.o
+      1034        114          0          4          0       6110   bsp_spiflash.o
+       166         24          0          4          0      26996   bsp_systick.o
+       112         10          0          0          0       1105   bsp_uart.o
+       292        176          0         19         18       1445   main.o
+       156          4        328          0       1024       3384   startup_swm320.o
+       772         38          0          0          0       2384   swm320_gpio.o
+      1608         30          0          0          0       1228   swm320_port.o
+       314         14          0          0          0      27409   swm320_spi.o
+       484         14          0          0          0       4066   swm320_uart.o
+       548         48          0          8          0      75901   system_swm320.o
 
     ----------------------------------------------------------------------
-      5494        472        360         36       1048     149808   Object Totals
+      5494        472        360         36       1048     150028   Object Totals
          0          0         32          0          0          0   (incl. Generated)
          8          0          0          1          6          0   (incl. Padding)
 
@@ -935,8 +935,8 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-      6480        544        360         40       1048     148464   Grand Totals
-      6480        544        360         40       1048     148464   ELF Image Totals
+      6480        544        360         40       1048     148684   Grand Totals
+      6480        544        360         40       1048     148684   ELF Image Totals
       6480        544        360         40          0          0   ROM Totals
 
 ==============================================================================
