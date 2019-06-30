@@ -65,6 +65,7 @@ led.value(1-led.value())
 key = Pin('PA4', Pin.IN)
 key = Pin('PA4', Pin.IN, mode=Pin.PULL_UP)    # 可开启内部上拉、下拉
 key.value()
+#Notice:Pin配置只支持PA/PB/PC端口
 ```
 
 ### 中断
