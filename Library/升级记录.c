@@ -346,3 +346,6 @@ CSL\SWM320_StdPeriph_Driver\SWM320_uart.c 文件中 UART_GetBaudrate() 中将：
 return (UARTx->BAUD & UART_BAUD_BAUD_Msk);
 修正为：
 return SystemCoreClock/16/(((UARTx->BAUD & UART_BAUD_BAUD_Msk) >> UART_BAUD_BAUD_Pos) + 1);
+
+2019/07/03
+新增Delay库函数（由电子芯吧客首席评测师徐珂靖博士编写）
