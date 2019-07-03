@@ -1,0 +1,7 @@
+分别跑1m次加法、乘法、除法，分别计时
+
+stm32f030test1.ioc是STM32CubeMX工程文件
+用CubeMX导出Keil工程
+然后把源文件添加到Keil工程里
+
+bsp目录附送了led和ds3231驱动
