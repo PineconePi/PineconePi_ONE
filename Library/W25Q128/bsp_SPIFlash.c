@@ -31,13 +31,13 @@ uint8_t SPI_Flash_Init(void)
 	FlashID = SPI_FLASH_ReadID();				// 获取 SPI Flash ID
 	if (FlashID == sFLASH_ID) 
 	{	
+        printf("\r\n 已发现SPI FLASH W25Q128！\r\n");
 		return 0;
-		printf("\r\n 已发现SPI FLASH W25Q128！\r\n");
 	}	
 	else
 	{
+	    printf("\r\n 未发现SPI FLASH W25Q128！\r\n");
 		return 1;
-		printf("\r\n 未发现SPI FLASH W25Q128！\r\n");
 	}
 }
  /**
