@@ -278,3 +278,15 @@ void SPI_Flash_PowerDown(void)
 	SPI_ReadWrite(SPI0, W25X_PowerDown); 	/* 发送 掉电 命令 */
 	SPIFlash_CSn_Set;						/*通讯结束：CS高 */
 }
+
+void SPI_Flash_WAKEUP(void)    //唤醒SPI_FLASH
+{
+  /*选择 FLASH: CS 低 */
+  SPIFlash_CSn_Clr;
+
+  /* 发上 上电 命令 */
+  SPI_ReadWrite(SPI0, W25X_ReleasePowerDown);
+
+  /* 停止信号 FLASH: CS 高 */
+  SPIFlash_CSn_Set;                   //等待TRES1
+}   

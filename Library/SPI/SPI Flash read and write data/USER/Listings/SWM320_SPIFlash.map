@@ -78,6 +78,9 @@ Section Cross References
     bsp_spiflash.o(i.SPI_Flash_PowerDown) refers to swm320_gpio.o(i.GPIO_ClrBit) for GPIO_ClrBit
     bsp_spiflash.o(i.SPI_Flash_PowerDown) refers to swm320_spi.o(i.SPI_ReadWrite) for SPI_ReadWrite
     bsp_spiflash.o(i.SPI_Flash_PowerDown) refers to swm320_gpio.o(i.GPIO_SetBit) for GPIO_SetBit
+    bsp_spiflash.o(i.SPI_Flash_WAKEUP) refers to swm320_gpio.o(i.GPIO_ClrBit) for GPIO_ClrBit
+    bsp_spiflash.o(i.SPI_Flash_WAKEUP) refers to swm320_spi.o(i.SPI_ReadWrite) for SPI_ReadWrite
+    bsp_spiflash.o(i.SPI_Flash_WAKEUP) refers to swm320_gpio.o(i.GPIO_SetBit) for GPIO_SetBit
     entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry10a.o(.ARM.Collect$$$$0000000D) for __rt_final_cpp
     entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry11a.o(.ARM.Collect$$$$0000000F) for __rt_final_exit
     entry.o(.ARM.Collect$$$$00000000) refers (Special) to entry7b.o(.ARM.Collect$$$$00000008) for _main_clock
@@ -434,6 +437,7 @@ Removing Unused input sections from the image.
     Removing bsp_spiflash.o(.revsh_text), (4 bytes).
     Removing bsp_spiflash.o(.rrx_text), (6 bytes).
     Removing bsp_spiflash.o(i.SPI_Flash_PowerDown), (36 bytes).
+    Removing bsp_spiflash.o(i.SPI_Flash_WAKEUP), (36 bytes).
     Removing dadd.o(.text), (334 bytes).
     Removing dmul.o(.text), (228 bytes).
     Removing ddiv.o(.text), (222 bytes).
@@ -441,7 +445,7 @@ Removing Unused input sections from the image.
     Removing cdrcmple.o(.text), (48 bytes).
     Removing depilogue.o(.text), (186 bytes).
 
-94 unused section(s) (total 2590 bytes) removed from the image.
+95 unused section(s) (total 2626 bytes) removed from the image.
 
 ==============================================================================
 
@@ -792,21 +796,21 @@ Memory Map of the image
     Base Addr    Size         Type   Attr      Idx    E Section Name        Object
 
     0x00000000   0x00000148   Data   RO          129    RESET               startup_swm320.o
-    0x00000148   0x00000000   Code   RO          870  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
-    0x00000148   0x00000004   Code   RO         1134    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
-    0x0000014c   0x00000004   Code   RO         1137    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
-    0x00000150   0x00000000   Code   RO         1139    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
-    0x00000150   0x00000000   Code   RO         1141    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
-    0x00000150   0x00000008   Code   RO         1142    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
-    0x00000158   0x00000000   Code   RO         1144    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
-    0x00000158   0x00000000   Code   RO         1146    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
-    0x00000158   0x00000004   Code   RO         1135    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
+    0x00000148   0x00000000   Code   RO          876  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
+    0x00000148   0x00000004   Code   RO         1140    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
+    0x0000014c   0x00000004   Code   RO         1143    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
+    0x00000150   0x00000000   Code   RO         1145    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
+    0x00000150   0x00000000   Code   RO         1147    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
+    0x00000150   0x00000008   Code   RO         1148    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
+    0x00000158   0x00000000   Code   RO         1150    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
+    0x00000158   0x00000000   Code   RO         1152    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
+    0x00000158   0x00000004   Code   RO         1141    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
     0x0000015c   0x0000009c   Code   RO          130    .text               startup_swm320.o
-    0x000001f8   0x00000062   Code   RO         1151    .text               mc_w.l(uldiv.o)
+    0x000001f8   0x00000062   Code   RO         1157    .text               mc_w.l(uldiv.o)
     0x0000025a   0x00000002   PAD
-    0x0000025c   0x00000024   Code   RO         1164    .text               mc_w.l(init.o)
-    0x00000280   0x0000001e   Code   RO         1166    .text               mc_w.l(llshl.o)
-    0x0000029e   0x00000020   Code   RO         1168    .text               mc_w.l(llushr.o)
+    0x0000025c   0x00000024   Code   RO         1170    .text               mc_w.l(init.o)
+    0x00000280   0x0000001e   Code   RO         1172    .text               mc_w.l(llshl.o)
+    0x0000029e   0x00000020   Code   RO         1174    .text               mc_w.l(llushr.o)
     0x000002be   0x0000000c   Code   RO          178    i.GPIO_ClrBit       swm320_gpio.o
     0x000002ca   0x00000002   PAD
     0x000002cc   0x000002ec   Code   RO          182    i.GPIO_Init         swm320_gpio.o
@@ -846,15 +850,15 @@ Memory Map of the image
     0x00001634   0x0000000e   Code   RO          508    i.UART_IsTXBusy     swm320_uart.o
     0x00001642   0x0000000a   Code   RO          514    i.UART_Open         swm320_uart.o
     0x0000164c   0x00000004   Code   RO          519    i.UART_WriteByte    swm320_uart.o
-    0x00001650   0x00000020   Code   RO         1006    i.__0printf$5       mc_w.l(printf5.o)
-    0x00001670   0x0000000e   Code   RO         1176    i.__scatterload_copy  mc_w.l(handlers.o)
-    0x0000167e   0x00000002   Code   RO         1177    i.__scatterload_null  mc_w.l(handlers.o)
-    0x00001680   0x0000000e   Code   RO         1178    i.__scatterload_zeroinit  mc_w.l(handlers.o)
+    0x00001650   0x00000020   Code   RO         1012    i.__0printf$5       mc_w.l(printf5.o)
+    0x00001670   0x0000000e   Code   RO         1182    i.__scatterload_copy  mc_w.l(handlers.o)
+    0x0000167e   0x00000002   Code   RO         1183    i.__scatterload_null  mc_w.l(handlers.o)
+    0x00001680   0x0000000e   Code   RO         1184    i.__scatterload_zeroinit  mc_w.l(handlers.o)
     0x0000168e   0x00000002   PAD
-    0x00001690   0x000002c0   Code   RO         1013    i._printf_core      mc_w.l(printf5.o)
+    0x00001690   0x000002c0   Code   RO         1019    i._printf_core      mc_w.l(printf5.o)
     0x00001950   0x00000024   Code   RO          764    i.fputc             bsp_uart.o
     0x00001974   0x00000124   Code   RO          137    i.main              main.o
-    0x00001a98   0x00000020   Data   RO         1174    Region$$Table       anon$$obj.o
+    0x00001a98   0x00000020   Data   RO         1180    Region$$Table       anon$$obj.o
 
 
     Execution Region RW_IRAM1 (Base: 0x20000000, Size: 0x00000440, Max: 0x00020000, ABSOLUTE)
@@ -865,8 +869,8 @@ Memory Map of the image
     0x20000008   0x00000013   Data   RW          139    .data               main.o
     0x2000001b   0x00000001   PAD
     0x2000001c   0x00000004   Data   RW          711    .data               bsp_systick.o
-    0x20000020   0x00000004   Data   RW          803    .data               bsp_spiflash.o
-    0x20000024   0x00000004   Data   RW         1148    .data               mc_w.l(stdout.o)
+    0x20000020   0x00000004   Data   RW          804    .data               bsp_spiflash.o
+    0x20000024   0x00000004   Data   RW         1154    .data               mc_w.l(stdout.o)
     0x20000028   0x00000012   Zero   RW          138    .bss                main.o
     0x2000003a   0x00000006   PAD
     0x20000040   0x00000400   Zero   RW          127    STACK               startup_swm320.o

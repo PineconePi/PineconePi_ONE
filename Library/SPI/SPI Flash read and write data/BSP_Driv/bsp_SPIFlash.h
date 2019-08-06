@@ -8,8 +8,8 @@
 #define  sFLASH_ID              0XEF4018   //W25Q128
 //#define  sFLASH_ID              0XEF4017    //W25Q64
 
-#define SPI_FLASH_PageSize              256
-#define SPI_FLASH_PerWritePageSize      256
+#define SPI_FLASH_PageSize              256  //读
+#define SPI_FLASH_PerWritePageSize      256   //写
 
 /*命令定义-开头*******************************/
 #define W25X_WriteEnable		      0x06 
@@ -50,5 +50,5 @@ void SPI_FLASH_WaitForWriteEnd(void);
 void SPI_FLASH_SectorErase(uint32_t SectorAddr);
 void SPI_FLASH_BufferRead(uint8_t* pBuffer, uint32_t ReadAddr, uint16_t NumByteToRead);
 void SPI_FLASH_BufferWrite(uint8_t* pBuffer, uint32_t WriteAddr, uint16_t NumByteToWrite);
-
+void SPI_Flash_WAKEUP(void);
 #endif

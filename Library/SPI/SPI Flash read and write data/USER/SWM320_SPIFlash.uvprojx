@@ -422,17 +422,15 @@
         </Group>
         <Group>
           <GroupName>USER</GroupName>
+        </Group>
+        <Group>
+          <GroupName>SWMLib</GroupName>
           <Files>
             <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\main.c</FilePath>
             </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>SWMLib</GroupName>
-          <Files>
             <File>
               <FileName>SWM320_gpio.c</FileName>
               <FileType>1</FileType>
