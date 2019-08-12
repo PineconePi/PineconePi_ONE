@@ -1,0 +1,22 @@
+--cpu Cortex-M4
+".\objects\system_swm320.o"
+".\objects\startup_swm320.o"
+".\objects\main.o"
+".\objects\11111.o"
+".\objects\swm320_gpio.o"
+".\objects\swm320_port.o"
+".\objects\swm320_sdio.o"
+".\objects\swm320_uart.o"
+".\objects\swm320_spi.o"
+".\objects\swm320_flash.o"
+".\objects\bsp_uart.o"
+".\objects\bsp_sdio.o"
+".\objects\bsp_spiflash.o"
+".\objects\diskio.o"
+".\objects\ff.o"
+".\objects\ffunicode.o"
+".\objects\ota.o"
+--library_type=microlib --strict --scatter ".\Objects\SWM320_SDIO.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\SWM320_SDIO.map" -o .\Objects\SWM320_SDIO.axf

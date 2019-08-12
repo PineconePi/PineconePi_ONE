@@ -1,0 +1,2 @@
+1.将SD卡上的程序导入SPI FLASH
+2.将SPI FLASH上的程序导入FLASH 并跳转运行

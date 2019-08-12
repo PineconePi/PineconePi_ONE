@@ -1,0 +1,74 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 董程森 微软用户, 微软中国, LIC=PE730-BUW4M-W2WLL-0NAGG-VSY4H-IRY8T
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.14.0.0
+Toolchain Path:  E:\MDK5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      Segger\JL2CM3.dll V2.99.13.0
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+C:\Users\hasee\Desktop\swm320显示\7M15\SDcard2SPIflash\xunhuanxieru\FATFS\USER\SWM320_SDIO.uvprojx
+Project File Date:  08/08/2019
+
+<h2>Output:</h2>
+Rebuild target 'SWM320_SDIO'
+compiling system_SWM320.c...
+assembling startup_SWM320.s...
+compiling main.c...
+OTA.h(10): warning:  #1-D: last line of file ends without a newline
+  #endif
+main.c: 1 warning, 0 errors
+compiling 11111.c...
+11111.c(101): warning:  #1-D: last line of file ends without a newline
+  //                        }
+compiling SWM320_gpio.c...
+compiling SWM320_port.c...
+compiling SWM320_sdio.c...
+compiling SWM320_uart.c...
+compiling SWM320_spi.c...
+compiling SWM320_flash.c...
+..\SWM320_StdPeriph_Driver\SWM320_flash.c(37): warning:  #177-D: function "switchTo40M" was declared but never referenced
+  static void switchTo40M(void)
+..\SWM320_StdPeriph_Driver\SWM320_flash.c: 1 warning, 0 errors
+compiling bsp_UART.c...
+compiling bsp_SDIO.c...
+compiling bsp_SPIFlash.c...
+..\BSP_Driv\bsp_SPIFlash.c(7): warning:  #550-D: variable "DeviceID" was set but never used
+        uint32_t DeviceID = 0;
+..\BSP_Driv\bsp_SPIFlash.c: 1 warning, 0 errors
+compiling diskio.c...
+compiling ff.c...
+compiling ffunicode.c...
+compiling OTA.c...
+OTA.h(10): warning:  #1-D: last line of file ends without a newline
+  #endif
+OTA.c(222): warning:  #1-D: last line of file ends without a newline
+  }
+OTA.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=19994 RO-data=175442 RW-data=48 ZI-data=37144  
+After Build - User command #1: E:\MDK5\\ARM\ARMCC\bin\fromelf.exe --bin --output=Bin\SWM320_SDIO.bin .\Objects\SWM320_SDIO.axf
+".\Objects\SWM320_SDIO.axf" - 0 Error(s), 6 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\hasee\Desktop\swm320显示\7M15\SDcard2SPIflash\xunhuanxieru\FATFS\USER\RTE
+  E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>

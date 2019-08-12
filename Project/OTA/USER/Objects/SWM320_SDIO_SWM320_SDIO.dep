@@ -1,0 +1,396 @@
+Dependencies for Project 'SWM320_SDIO', Target 'SWM320_SDIO': (DO NOT MODIFY !)
+F (..\CMSIS\DeviceSupport\system_SWM320.c)(0x5D48DA91)(--c99 -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\BSP_Driv -I..\CMSIS\CoreSupport -I..\CMSIS\DeviceSupport -I..\SWM320_StdPeriph_Driver -I..\FATFS -I..\FATFS\option -I..\..\FATFS -I..\USER-I C:\Users\hasee\Desktop\swm320显示\7M15\SDcard2SPIflash\xunhuanxieru\FATFS\USER\RTE-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM3200\CMSIS\DeviceSupport-D__UVISION_VERSION="514"-o .\objects\system_swm320.o --omf_browse .\objects\system_swm320.crf --depend .\objects\system_swm320.d)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CMSIS\DeviceSupport\SWM320.h)(0x5AD81296)
+I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\CMSIS\CoreSupport\core_cm4.h)(0x542135DE)
+I (..\CMSIS\CoreSupport\core_cmInstr.h)(0x542135DE)
+I (..\CMSIS\CoreSupport\core_cmFunc.h)(0x542135DE)
+I (..\CMSIS\CoreSupport\core_cmSimd.h)(0x542135DE)
+I (..\CMSIS\DeviceSupport\system_SWM320.h)(0x5ABC53C6)
+I (..\SWM320_StdPeriph_Driver\SWM320_port.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_gpio.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_exti.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_timr.h)(0x5ABC53CC)
+I (..\SWM320_StdPeriph_Driver\SWM320_uart.h)(0x5AD812E3)
+I (..\SWM320_StdPeriph_Driver\SWM320_spi.h)(0x5AF7FD09)
+I (..\SWM320_StdPeriph_Driver\SWM320_i2c.h)(0x5ACC9780)
+I (..\SWM320_StdPeriph_Driver\SWM320_pwm.h)(0x5ACD87E1)
+I (..\SWM320_StdPeriph_Driver\SWM320_adc.h)(0x5AE15649)
+I (..\SWM320_StdPeriph_Driver\SWM320_dma.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_lcd.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_can.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_sdio.h)(0x5ABC53CC)
+I (..\SWM320_StdPeriph_Driver\SWM320_flash.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_norflash.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_sdram.h)(0x5ABC53CC)
+I (..\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
+F (..\CMSIS\DeviceSupport\startup_SWM320.s)(0x5D0890CE)(--cpu Cortex-M4 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Users\hasee\Desktop\swm320显示\7M15\SDcard2SPIflash\xunhuanxieru\FATFS\USER\RTE-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM3200\CMSIS\DeviceSupport--pd "__UVISION_VERSION SETA 514"--list .\listings\startup_swm320.lst --xref -o .\objects\startup_swm320.o --depend .\objects\startup_swm320.d)
+F (.\main.c)(0x5D4D35A5)(--c99 -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\BSP_Driv -I..\CMSIS\CoreSupport -I..\CMSIS\DeviceSupport -I..\SWM320_StdPeriph_Driver -I..\FATFS -I..\FATFS\option -I..\..\FATFS -I..\USER-I C:\Users\hasee\Desktop\swm320显示\7M15\SDcard2SPIflash\xunhuanxieru\FATFS\USER\RTE-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM3200\CMSIS\DeviceSupport-D__UVISION_VERSION="514"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\CMSIS\DeviceSupport\SWM320.h)(0x5AD81296)
+I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\CMSIS\CoreSupport\core_cm4.h)(0x542135DE)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CMSIS\CoreSupport\core_cmInstr.h)(0x542135DE)
+I (..\CMSIS\CoreSupport\core_cmFunc.h)(0x542135DE)
+I (..\CMSIS\CoreSupport\core_cmSimd.h)(0x542135DE)
+I (..\CMSIS\DeviceSupport\system_SWM320.h)(0x5ABC53C6)
+I (..\SWM320_StdPeriph_Driver\SWM320_port.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_gpio.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_exti.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_timr.h)(0x5ABC53CC)
+I (..\SWM320_StdPeriph_Driver\SWM320_uart.h)(0x5AD812E3)
+I (..\SWM320_StdPeriph_Driver\SWM320_spi.h)(0x5AF7FD09)
+I (..\SWM320_StdPeriph_Driver\SWM320_i2c.h)(0x5ACC9780)
+I (..\SWM320_StdPeriph_Driver\SWM320_pwm.h)(0x5ACD87E1)
+I (..\SWM320_StdPeriph_Driver\SWM320_adc.h)(0x5AE15649)
+I (..\SWM320_StdPeriph_Driver\SWM320_dma.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_lcd.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_can.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_sdio.h)(0x5ABC53CC)
+I (..\SWM320_StdPeriph_Driver\SWM320_flash.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_norflash.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_sdram.h)(0x5ABC53CC)
+I (..\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
+I (..\BSP_Driv\bsp_uart.h)(0x5B08FCC0)
+I (OTA.h)(0x5D493CF8)
+I (..\FATFS\ff.h)(0x59E1B300)
+I (..\FATFS\integer.h)(0x59E1B300)
+I (..\FATFS\ffconf.h)(0x5D132EA8)
+F (.\11111.c)(0x5D0C7327)(--c99 -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\BSP_Driv -I..\CMSIS\CoreSupport -I..\CMSIS\DeviceSupport -I..\SWM320_StdPeriph_Driver -I..\FATFS -I..\FATFS\option -I..\..\FATFS -I..\USER-I C:\Users\hasee\Desktop\swm320显示\7M15\SDcard2SPIflash\xunhuanxieru\FATFS\USER\RTE-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM3200\CMSIS\DeviceSupport-D__UVISION_VERSION="514"-o .\objects\11111.o --omf_browse .\objects\11111.crf --depend .\objects\11111.d)
+F (..\SWM320_StdPeriph_Driver\SWM320_gpio.c)(0x5ABC53CB)(--c99 -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\BSP_Driv -I..\CMSIS\CoreSupport -I..\CMSIS\DeviceSupport -I..\SWM320_StdPeriph_Driver -I..\FATFS -I..\FATFS\option -I..\..\FATFS -I..\USER-I C:\Users\hasee\Desktop\swm320显示\7M15\SDcard2SPIflash\xunhuanxieru\FATFS\USER\RTE-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM3200\CMSIS\DeviceSupport-D__UVISION_VERSION="514"-o .\objects\swm320_gpio.o --omf_browse .\objects\swm320_gpio.crf --depend .\objects\swm320_gpio.d)
+I (..\CMSIS\DeviceSupport\SWM320.h)(0x5AD81296)
+I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\CMSIS\CoreSupport\core_cm4.h)(0x542135DE)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CMSIS\CoreSupport\core_cmInstr.h)(0x542135DE)
+I (..\CMSIS\CoreSupport\core_cmFunc.h)(0x542135DE)
+I (..\CMSIS\CoreSupport\core_cmSimd.h)(0x542135DE)
+I (..\CMSIS\DeviceSupport\system_SWM320.h)(0x5ABC53C6)
+I (..\SWM320_StdPeriph_Driver\SWM320_port.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_gpio.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_exti.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_timr.h)(0x5ABC53CC)
+I (..\SWM320_StdPeriph_Driver\SWM320_uart.h)(0x5AD812E3)
+I (..\SWM320_StdPeriph_Driver\SWM320_spi.h)(0x5AF7FD09)
+I (..\SWM320_StdPeriph_Driver\SWM320_i2c.h)(0x5ACC9780)
+I (..\SWM320_StdPeriph_Driver\SWM320_pwm.h)(0x5ACD87E1)
+I (..\SWM320_StdPeriph_Driver\SWM320_adc.h)(0x5AE15649)
+I (..\SWM320_StdPeriph_Driver\SWM320_dma.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_lcd.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_can.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_sdio.h)(0x5ABC53CC)
+I (..\SWM320_StdPeriph_Driver\SWM320_flash.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_norflash.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_sdram.h)(0x5ABC53CC)
+I (..\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
+F (..\SWM320_StdPeriph_Driver\SWM320_port.c)(0x5ABC53CB)(--c99 -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\BSP_Driv -I..\CMSIS\CoreSupport -I..\CMSIS\DeviceSupport -I..\SWM320_StdPeriph_Driver -I..\FATFS -I..\FATFS\option -I..\..\FATFS -I..\USER-I C:\Users\hasee\Desktop\swm320显示\7M15\SDcard2SPIflash\xunhuanxieru\FATFS\USER\RTE-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM3200\CMSIS\DeviceSupport-D__UVISION_VERSION="514"-o .\objects\swm320_port.o --omf_browse .\objects\swm320_port.crf --depend .\objects\swm320_port.d)
+I (..\CMSIS\DeviceSupport\SWM320.h)(0x5AD81296)
+I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\CMSIS\CoreSupport\core_cm4.h)(0x542135DE)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CMSIS\CoreSupport\core_cmInstr.h)(0x542135DE)
+I (..\CMSIS\CoreSupport\core_cmFunc.h)(0x542135DE)
+I (..\CMSIS\CoreSupport\core_cmSimd.h)(0x542135DE)
+I (..\CMSIS\DeviceSupport\system_SWM320.h)(0x5ABC53C6)
+I (..\SWM320_StdPeriph_Driver\SWM320_port.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_gpio.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_exti.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_timr.h)(0x5ABC53CC)
+I (..\SWM320_StdPeriph_Driver\SWM320_uart.h)(0x5AD812E3)
+I (..\SWM320_StdPeriph_Driver\SWM320_spi.h)(0x5AF7FD09)
+I (..\SWM320_StdPeriph_Driver\SWM320_i2c.h)(0x5ACC9780)
+I (..\SWM320_StdPeriph_Driver\SWM320_pwm.h)(0x5ACD87E1)
+I (..\SWM320_StdPeriph_Driver\SWM320_adc.h)(0x5AE15649)
+I (..\SWM320_StdPeriph_Driver\SWM320_dma.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_lcd.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_can.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_sdio.h)(0x5ABC53CC)
+I (..\SWM320_StdPeriph_Driver\SWM320_flash.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_norflash.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_sdram.h)(0x5ABC53CC)
+I (..\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
+F (..\SWM320_StdPeriph_Driver\SWM320_sdio.c)(0x5D496F8C)(--c99 -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\BSP_Driv -I..\CMSIS\CoreSupport -I..\CMSIS\DeviceSupport -I..\SWM320_StdPeriph_Driver -I..\FATFS -I..\FATFS\option -I..\..\FATFS -I..\USER-I C:\Users\hasee\Desktop\swm320显示\7M15\SDcard2SPIflash\xunhuanxieru\FATFS\USER\RTE-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM3200\CMSIS\DeviceSupport-D__UVISION_VERSION="514"-o .\objects\swm320_sdio.o --omf_browse .\objects\swm320_sdio.crf --depend .\objects\swm320_sdio.d)
+I (..\CMSIS\DeviceSupport\SWM320.h)(0x5AD81296)
+I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\CMSIS\CoreSupport\core_cm4.h)(0x542135DE)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CMSIS\CoreSupport\core_cmInstr.h)(0x542135DE)
+I (..\CMSIS\CoreSupport\core_cmFunc.h)(0x542135DE)
+I (..\CMSIS\CoreSupport\core_cmSimd.h)(0x542135DE)
+I (..\CMSIS\DeviceSupport\system_SWM320.h)(0x5ABC53C6)
+I (..\SWM320_StdPeriph_Driver\SWM320_port.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_gpio.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_exti.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_timr.h)(0x5ABC53CC)
+I (..\SWM320_StdPeriph_Driver\SWM320_uart.h)(0x5AD812E3)
+I (..\SWM320_StdPeriph_Driver\SWM320_spi.h)(0x5AF7FD09)
+I (..\SWM320_StdPeriph_Driver\SWM320_i2c.h)(0x5ACC9780)
+I (..\SWM320_StdPeriph_Driver\SWM320_pwm.h)(0x5ACD87E1)
+I (..\SWM320_StdPeriph_Driver\SWM320_adc.h)(0x5AE15649)
+I (..\SWM320_StdPeriph_Driver\SWM320_dma.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_lcd.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_can.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_sdio.h)(0x5ABC53CC)
+I (..\SWM320_StdPeriph_Driver\SWM320_flash.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_norflash.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_sdram.h)(0x5ABC53CC)
+I (..\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
+F (..\SWM320_StdPeriph_Driver\SWM320_uart.c)(0x5AD812FD)(--c99 -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\BSP_Driv -I..\CMSIS\CoreSupport -I..\CMSIS\DeviceSupport -I..\SWM320_StdPeriph_Driver -I..\FATFS -I..\FATFS\option -I..\..\FATFS -I..\USER-I C:\Users\hasee\Desktop\swm320显示\7M15\SDcard2SPIflash\xunhuanxieru\FATFS\USER\RTE-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM3200\CMSIS\DeviceSupport-D__UVISION_VERSION="514"-o .\objects\swm320_uart.o --omf_browse .\objects\swm320_uart.crf --depend .\objects\swm320_uart.d)
+I (..\CMSIS\DeviceSupport\SWM320.h)(0x5AD81296)
+I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\CMSIS\CoreSupport\core_cm4.h)(0x542135DE)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CMSIS\CoreSupport\core_cmInstr.h)(0x542135DE)
+I (..\CMSIS\CoreSupport\core_cmFunc.h)(0x542135DE)
+I (..\CMSIS\CoreSupport\core_cmSimd.h)(0x542135DE)
+I (..\CMSIS\DeviceSupport\system_SWM320.h)(0x5ABC53C6)
+I (..\SWM320_StdPeriph_Driver\SWM320_port.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_gpio.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_exti.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_timr.h)(0x5ABC53CC)
+I (..\SWM320_StdPeriph_Driver\SWM320_uart.h)(0x5AD812E3)
+I (..\SWM320_StdPeriph_Driver\SWM320_spi.h)(0x5AF7FD09)
+I (..\SWM320_StdPeriph_Driver\SWM320_i2c.h)(0x5ACC9780)
+I (..\SWM320_StdPeriph_Driver\SWM320_pwm.h)(0x5ACD87E1)
+I (..\SWM320_StdPeriph_Driver\SWM320_adc.h)(0x5AE15649)
+I (..\SWM320_StdPeriph_Driver\SWM320_dma.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_lcd.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_can.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_sdio.h)(0x5ABC53CC)
+I (..\SWM320_StdPeriph_Driver\SWM320_flash.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_norflash.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_sdram.h)(0x5ABC53CC)
+I (..\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
+F (..\SWM320_StdPeriph_Driver\SWM320_spi.c)(0x5AD467BA)(--c99 -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\BSP_Driv -I..\CMSIS\CoreSupport -I..\CMSIS\DeviceSupport -I..\SWM320_StdPeriph_Driver -I..\FATFS -I..\FATFS\option -I..\..\FATFS -I..\USER-I C:\Users\hasee\Desktop\swm320显示\7M15\SDcard2SPIflash\xunhuanxieru\FATFS\USER\RTE-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM3200\CMSIS\DeviceSupport-D__UVISION_VERSION="514"-o .\objects\swm320_spi.o --omf_browse .\objects\swm320_spi.crf --depend .\objects\swm320_spi.d)
+I (..\CMSIS\DeviceSupport\SWM320.h)(0x5AD81296)
+I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\CMSIS\CoreSupport\core_cm4.h)(0x542135DE)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CMSIS\CoreSupport\core_cmInstr.h)(0x542135DE)
+I (..\CMSIS\CoreSupport\core_cmFunc.h)(0x542135DE)
+I (..\CMSIS\CoreSupport\core_cmSimd.h)(0x542135DE)
+I (..\CMSIS\DeviceSupport\system_SWM320.h)(0x5ABC53C6)
+I (..\SWM320_StdPeriph_Driver\SWM320_port.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_gpio.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_exti.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_timr.h)(0x5ABC53CC)
+I (..\SWM320_StdPeriph_Driver\SWM320_uart.h)(0x5AD812E3)
+I (..\SWM320_StdPeriph_Driver\SWM320_spi.h)(0x5AF7FD09)
+I (..\SWM320_StdPeriph_Driver\SWM320_i2c.h)(0x5ACC9780)
+I (..\SWM320_StdPeriph_Driver\SWM320_pwm.h)(0x5ACD87E1)
+I (..\SWM320_StdPeriph_Driver\SWM320_adc.h)(0x5AE15649)
+I (..\SWM320_StdPeriph_Driver\SWM320_dma.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_lcd.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_can.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_sdio.h)(0x5ABC53CC)
+I (..\SWM320_StdPeriph_Driver\SWM320_flash.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_norflash.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_sdram.h)(0x5ABC53CC)
+I (..\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
+F (..\SWM320_StdPeriph_Driver\SWM320_flash.c)(0x5ABC53CB)(--c99 -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\BSP_Driv -I..\CMSIS\CoreSupport -I..\CMSIS\DeviceSupport -I..\SWM320_StdPeriph_Driver -I..\FATFS -I..\FATFS\option -I..\..\FATFS -I..\USER-I C:\Users\hasee\Desktop\swm320显示\7M15\SDcard2SPIflash\xunhuanxieru\FATFS\USER\RTE-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM3200\CMSIS\DeviceSupport-D__UVISION_VERSION="514"-o .\objects\swm320_flash.o --omf_browse .\objects\swm320_flash.crf --depend .\objects\swm320_flash.d)
+I (..\CMSIS\DeviceSupport\SWM320.h)(0x5AD81296)
+I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\CMSIS\CoreSupport\core_cm4.h)(0x542135DE)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CMSIS\CoreSupport\core_cmInstr.h)(0x542135DE)
+I (..\CMSIS\CoreSupport\core_cmFunc.h)(0x542135DE)
+I (..\CMSIS\CoreSupport\core_cmSimd.h)(0x542135DE)
+I (..\CMSIS\DeviceSupport\system_SWM320.h)(0x5ABC53C6)
+I (..\SWM320_StdPeriph_Driver\SWM320_port.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_gpio.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_exti.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_timr.h)(0x5ABC53CC)
+I (..\SWM320_StdPeriph_Driver\SWM320_uart.h)(0x5AD812E3)
+I (..\SWM320_StdPeriph_Driver\SWM320_spi.h)(0x5AF7FD09)
+I (..\SWM320_StdPeriph_Driver\SWM320_i2c.h)(0x5ACC9780)
+I (..\SWM320_StdPeriph_Driver\SWM320_pwm.h)(0x5ACD87E1)
+I (..\SWM320_StdPeriph_Driver\SWM320_adc.h)(0x5AE15649)
+I (..\SWM320_StdPeriph_Driver\SWM320_dma.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_lcd.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_can.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_sdio.h)(0x5ABC53CC)
+I (..\SWM320_StdPeriph_Driver\SWM320_flash.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_norflash.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_sdram.h)(0x5ABC53CC)
+I (..\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
+F (..\BSP_Driv\bsp_UART.c)(0x5A4B899E)(--c99 -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\BSP_Driv -I..\CMSIS\CoreSupport -I..\CMSIS\DeviceSupport -I..\SWM320_StdPeriph_Driver -I..\FATFS -I..\FATFS\option -I..\..\FATFS -I..\USER-I C:\Users\hasee\Desktop\swm320显示\7M15\SDcard2SPIflash\xunhuanxieru\FATFS\USER\RTE-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM3200\CMSIS\DeviceSupport-D__UVISION_VERSION="514"-o .\objects\bsp_uart.o --omf_browse .\objects\bsp_uart.crf --depend .\objects\bsp_uart.d)
+I (..\BSP_Driv\bsp_uart.h)(0x5B08FCC0)
+I (..\CMSIS\DeviceSupport\SWM320.h)(0x5AD81296)
+I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\CMSIS\CoreSupport\core_cm4.h)(0x542135DE)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CMSIS\CoreSupport\core_cmInstr.h)(0x542135DE)
+I (..\CMSIS\CoreSupport\core_cmFunc.h)(0x542135DE)
+I (..\CMSIS\CoreSupport\core_cmSimd.h)(0x542135DE)
+I (..\CMSIS\DeviceSupport\system_SWM320.h)(0x5ABC53C6)
+I (..\SWM320_StdPeriph_Driver\SWM320_port.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_gpio.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_exti.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_timr.h)(0x5ABC53CC)
+I (..\SWM320_StdPeriph_Driver\SWM320_uart.h)(0x5AD812E3)
+I (..\SWM320_StdPeriph_Driver\SWM320_spi.h)(0x5AF7FD09)
+I (..\SWM320_StdPeriph_Driver\SWM320_i2c.h)(0x5ACC9780)
+I (..\SWM320_StdPeriph_Driver\SWM320_pwm.h)(0x5ACD87E1)
+I (..\SWM320_StdPeriph_Driver\SWM320_adc.h)(0x5AE15649)
+I (..\SWM320_StdPeriph_Driver\SWM320_dma.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_lcd.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_can.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_sdio.h)(0x5ABC53CC)
+I (..\SWM320_StdPeriph_Driver\SWM320_flash.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_norflash.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_sdram.h)(0x5ABC53CC)
+I (..\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
+F (..\BSP_Driv\bsp_SDIO.c)(0x5D4907C7)(--c99 -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\BSP_Driv -I..\CMSIS\CoreSupport -I..\CMSIS\DeviceSupport -I..\SWM320_StdPeriph_Driver -I..\FATFS -I..\FATFS\option -I..\..\FATFS -I..\USER-I C:\Users\hasee\Desktop\swm320显示\7M15\SDcard2SPIflash\xunhuanxieru\FATFS\USER\RTE-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM3200\CMSIS\DeviceSupport-D__UVISION_VERSION="514"-o .\objects\bsp_sdio.o --omf_browse .\objects\bsp_sdio.crf --depend .\objects\bsp_sdio.d)
+I (..\BSP_Driv\bsp_sdio.h)(0x5B0A52B9)
+I (..\CMSIS\DeviceSupport\SWM320.h)(0x5AD81296)
+I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\CMSIS\CoreSupport\core_cm4.h)(0x542135DE)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CMSIS\CoreSupport\core_cmInstr.h)(0x542135DE)
+I (..\CMSIS\CoreSupport\core_cmFunc.h)(0x542135DE)
+I (..\CMSIS\CoreSupport\core_cmSimd.h)(0x542135DE)
+I (..\CMSIS\DeviceSupport\system_SWM320.h)(0x5ABC53C6)
+I (..\SWM320_StdPeriph_Driver\SWM320_port.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_gpio.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_exti.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_timr.h)(0x5ABC53CC)
+I (..\SWM320_StdPeriph_Driver\SWM320_uart.h)(0x5AD812E3)
+I (..\SWM320_StdPeriph_Driver\SWM320_spi.h)(0x5AF7FD09)
+I (..\SWM320_StdPeriph_Driver\SWM320_i2c.h)(0x5ACC9780)
+I (..\SWM320_StdPeriph_Driver\SWM320_pwm.h)(0x5ACD87E1)
+I (..\SWM320_StdPeriph_Driver\SWM320_adc.h)(0x5AE15649)
+I (..\SWM320_StdPeriph_Driver\SWM320_dma.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_lcd.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_can.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_sdio.h)(0x5ABC53CC)
+I (..\SWM320_StdPeriph_Driver\SWM320_flash.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_norflash.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_sdram.h)(0x5ABC53CC)
+I (..\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
+F (..\BSP_Driv\bsp_SPIFlash.c)(0x5D494BC4)(--c99 -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\BSP_Driv -I..\CMSIS\CoreSupport -I..\CMSIS\DeviceSupport -I..\SWM320_StdPeriph_Driver -I..\FATFS -I..\FATFS\option -I..\..\FATFS -I..\USER-I C:\Users\hasee\Desktop\swm320显示\7M15\SDcard2SPIflash\xunhuanxieru\FATFS\USER\RTE-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM3200\CMSIS\DeviceSupport-D__UVISION_VERSION="514"-o .\objects\bsp_spiflash.o --omf_browse .\objects\bsp_spiflash.crf --depend .\objects\bsp_spiflash.d)
+I (..\BSP_Driv\bsp_SPIFlash.h)(0x5D48FCC7)
+I (..\CMSIS\DeviceSupport\SWM320.h)(0x5AD81296)
+I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\CMSIS\CoreSupport\core_cm4.h)(0x542135DE)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CMSIS\CoreSupport\core_cmInstr.h)(0x542135DE)
+I (..\CMSIS\CoreSupport\core_cmFunc.h)(0x542135DE)
+I (..\CMSIS\CoreSupport\core_cmSimd.h)(0x542135DE)
+I (..\CMSIS\DeviceSupport\system_SWM320.h)(0x5ABC53C6)
+I (..\SWM320_StdPeriph_Driver\SWM320_port.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_gpio.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_exti.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_timr.h)(0x5ABC53CC)
+I (..\SWM320_StdPeriph_Driver\SWM320_uart.h)(0x5AD812E3)
+I (..\SWM320_StdPeriph_Driver\SWM320_spi.h)(0x5AF7FD09)
+I (..\SWM320_StdPeriph_Driver\SWM320_i2c.h)(0x5ACC9780)
+I (..\SWM320_StdPeriph_Driver\SWM320_pwm.h)(0x5ACD87E1)
+I (..\SWM320_StdPeriph_Driver\SWM320_adc.h)(0x5AE15649)
+I (..\SWM320_StdPeriph_Driver\SWM320_dma.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_lcd.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_can.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_sdio.h)(0x5ABC53CC)
+I (..\SWM320_StdPeriph_Driver\SWM320_flash.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_norflash.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_sdram.h)(0x5ABC53CC)
+I (..\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
+F (..\FATFS\diskio.c)(0x5D48E355)(--c99 -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\BSP_Driv -I..\CMSIS\CoreSupport -I..\CMSIS\DeviceSupport -I..\SWM320_StdPeriph_Driver -I..\FATFS -I..\FATFS\option -I..\..\FATFS -I..\USER-I C:\Users\hasee\Desktop\swm320显示\7M15\SDcard2SPIflash\xunhuanxieru\FATFS\USER\RTE-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM3200\CMSIS\DeviceSupport-D__UVISION_VERSION="514"-o .\objects\diskio.o --omf_browse .\objects\diskio.crf --depend .\objects\diskio.d)
+I (..\FATFS\diskio.h)(0x5B0D6D89)
+I (..\FATFS\integer.h)(0x59E1B300)
+I (..\FATFS\ff.h)(0x59E1B300)
+I (..\FATFS\ffconf.h)(0x5D132EA8)
+I (..\BSP_Driv\bsp_sdio.h)(0x5B0A52B9)
+I (..\CMSIS\DeviceSupport\SWM320.h)(0x5AD81296)
+I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\CMSIS\CoreSupport\core_cm4.h)(0x542135DE)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CMSIS\CoreSupport\core_cmInstr.h)(0x542135DE)
+I (..\CMSIS\CoreSupport\core_cmFunc.h)(0x542135DE)
+I (..\CMSIS\CoreSupport\core_cmSimd.h)(0x542135DE)
+I (..\CMSIS\DeviceSupport\system_SWM320.h)(0x5ABC53C6)
+I (..\SWM320_StdPeriph_Driver\SWM320_port.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_gpio.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_exti.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_timr.h)(0x5ABC53CC)
+I (..\SWM320_StdPeriph_Driver\SWM320_uart.h)(0x5AD812E3)
+I (..\SWM320_StdPeriph_Driver\SWM320_spi.h)(0x5AF7FD09)
+I (..\SWM320_StdPeriph_Driver\SWM320_i2c.h)(0x5ACC9780)
+I (..\SWM320_StdPeriph_Driver\SWM320_pwm.h)(0x5ACD87E1)
+I (..\SWM320_StdPeriph_Driver\SWM320_adc.h)(0x5AE15649)
+I (..\SWM320_StdPeriph_Driver\SWM320_dma.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_lcd.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_can.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_sdio.h)(0x5ABC53CC)
+I (..\SWM320_StdPeriph_Driver\SWM320_flash.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_norflash.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_sdram.h)(0x5ABC53CC)
+I (..\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
+I (..\BSP_Driv\bsp_SPIFlash.h)(0x5D48FCC7)
+F (..\FATFS\ff.c)(0x59E1B300)(--c99 -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\BSP_Driv -I..\CMSIS\CoreSupport -I..\CMSIS\DeviceSupport -I..\SWM320_StdPeriph_Driver -I..\FATFS -I..\FATFS\option -I..\..\FATFS -I..\USER-I C:\Users\hasee\Desktop\swm320显示\7M15\SDcard2SPIflash\xunhuanxieru\FATFS\USER\RTE-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM3200\CMSIS\DeviceSupport-D__UVISION_VERSION="514"-o .\objects\ff.o --omf_browse .\objects\ff.crf --depend .\objects\ff.d)
+I (..\FATFS\ff.h)(0x59E1B300)
+I (..\FATFS\integer.h)(0x59E1B300)
+I (..\FATFS\ffconf.h)(0x5D132EA8)
+I (..\FATFS\diskio.h)(0x5B0D6D89)
+F (..\FATFS\ffunicode.c)(0x59E1B300)(--c99 -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\BSP_Driv -I..\CMSIS\CoreSupport -I..\CMSIS\DeviceSupport -I..\SWM320_StdPeriph_Driver -I..\FATFS -I..\FATFS\option -I..\..\FATFS -I..\USER-I C:\Users\hasee\Desktop\swm320显示\7M15\SDcard2SPIflash\xunhuanxieru\FATFS\USER\RTE-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM3200\CMSIS\DeviceSupport-D__UVISION_VERSION="514"-o .\objects\ffunicode.o --omf_browse .\objects\ffunicode.crf --depend .\objects\ffunicode.d)
+I (..\FATFS\ff.h)(0x59E1B300)
+I (..\FATFS\integer.h)(0x59E1B300)
+I (..\FATFS\ffconf.h)(0x5D132EA8)
+F (.\OTA.c)(0x5D4D4F43)(--c99 -c --cpu Cortex-M4 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\BSP_Driv -I..\CMSIS\CoreSupport -I..\CMSIS\DeviceSupport -I..\SWM320_StdPeriph_Driver -I..\FATFS -I..\FATFS\option -I..\..\FATFS -I..\USER-I C:\Users\hasee\Desktop\swm320显示\7M15\SDcard2SPIflash\xunhuanxieru\FATFS\USER\RTE-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM320\CMSIS\DeviceSupport-I E:\MDK5\ARM\CMSIS\Include-I E:\MDK5\Synwit\SWM32_DFP\1.8.5\CSL\SWM3200\CMSIS\DeviceSupport-D__UVISION_VERSION="514"-o .\objects\ota.o --omf_browse .\objects\ota.crf --depend .\objects\ota.d)
+I (OTA.h)(0x5D493CF8)
+I (..\CMSIS\DeviceSupport\swm320.h)(0x5AD81296)
+I (E:\MDK5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+I (..\CMSIS\CoreSupport\core_cm4.h)(0x542135DE)
+I (E:\MDK5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (..\CMSIS\CoreSupport\core_cmInstr.h)(0x542135DE)
+I (..\CMSIS\CoreSupport\core_cmFunc.h)(0x542135DE)
+I (..\CMSIS\CoreSupport\core_cmSimd.h)(0x542135DE)
+I (..\CMSIS\DeviceSupport\system_SWM320.h)(0x5ABC53C6)
+I (..\SWM320_StdPeriph_Driver\SWM320_port.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_gpio.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_exti.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_timr.h)(0x5ABC53CC)
+I (..\SWM320_StdPeriph_Driver\SWM320_uart.h)(0x5AD812E3)
+I (..\SWM320_StdPeriph_Driver\SWM320_spi.h)(0x5AF7FD09)
+I (..\SWM320_StdPeriph_Driver\SWM320_i2c.h)(0x5ACC9780)
+I (..\SWM320_StdPeriph_Driver\SWM320_pwm.h)(0x5ACD87E1)
+I (..\SWM320_StdPeriph_Driver\SWM320_adc.h)(0x5AE15649)
+I (..\SWM320_StdPeriph_Driver\SWM320_dma.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_lcd.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_can.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_sdio.h)(0x5ABC53CC)
+I (..\SWM320_StdPeriph_Driver\SWM320_flash.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_norflash.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_sdram.h)(0x5ABC53CC)
+I (..\SWM320_StdPeriph_Driver\SWM320_crc.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_rtc.h)(0x5ABC53CB)
+I (..\SWM320_StdPeriph_Driver\SWM320_wdt.h)(0x5ABC53CC)
+I (..\FATFS\ff.h)(0x59E1B300)
+I (..\FATFS\integer.h)(0x59E1B300)
+I (..\FATFS\ffconf.h)(0x5D132EA8)
+I (..\BSP_Driv\bsp_SPIFlash.h)(0x5D48FCC7)
+I (..\BSP_Driv\bsp_sdio.h)(0x5B0A52B9)
