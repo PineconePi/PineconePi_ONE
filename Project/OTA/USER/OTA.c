@@ -95,10 +95,9 @@ void JumpToApp(uint32_t addr)
 	
 	uint32_t sp = *((volatile uint32_t *)(addr));
 	uint32_t pc = *((volatile uint32_t *)(addr + 4));
-	Clear_Interrupt();
 	typedef void (*Func_void_void)(void);
 	Func_void_void ResetHandler = (Func_void_void)pc;
-	
+	Clear_Interrupt();
 	__disable_irq();
 	
 	SCB->VTOR = addr;
